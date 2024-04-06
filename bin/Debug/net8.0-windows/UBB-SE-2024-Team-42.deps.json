@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UBB-SE-2024-Team-42/1.0.0": {
+        "runtime": {
+          "UBB-SE-2024-Team-42.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UBB-SE-2024-Team-42/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
