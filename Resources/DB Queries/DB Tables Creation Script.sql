@@ -1,4 +1,17 @@
-﻿[id] bigint identity primary key,
+﻿--drop table [Has]
+--drop table [Owns]
+--drop table [Tags]
+--drop table [Notifications]
+--drop table [Users]
+--drop table [Moderates]
+--drop table [Replies]
+--drop table [Categories]
+--drop table [Badges]
+--drop table [Posts]
+--drop table [Votes]
+
+create table [Users](
+[id] bigint identity primary key,
 [name] varchar(255) not null
 )
 
@@ -29,9 +42,9 @@ primary key ([userId], [badgeId])
 create table [Posts]( -- here we store questions AND answers AND comments. This is called single table inheritance. We will need proper validation when writing procedures for this
 [id] bigint identity primary key,
 [userId] bigint not null,
-[content] varchar(5000) not null, -- cutting some slack for the image links and markdown
-[dateAndTimeOfLastChange] datetime, -- changed == posted or edited
-[wasEdited] bit not null default 0,
+[content] varchar(8000) not null, -- cutting some slack for the image links and markdown
+[datePosted] datetime not null,
+[dateOfLastEdit] datetime default null,
 [type] varchar(20) not null,
 constraint [typeConstraint] check ([type] in ('question', 'answer', 'comment')),
 [title] varchar(255) default null, -- allowed only if this is a question
