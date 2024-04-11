@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -23,8 +23,28 @@
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\db queries\\db procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\db queries\\db procedures.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +54,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "DB Procedures.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Procedures.sql",
+              "RelativeDocumentMoniker": "Resources\\DB Queries\\DB Procedures.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Procedures.sql",
+              "RelativeToolTip": "Resources\\DB Queries\\DB Procedures.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-11T15:58:14.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DB Populate.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Populate.sql",
+              "RelativeDocumentMoniker": "Resources\\DB Queries\\DB Populate.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Populate.sql",
+              "RelativeToolTip": "Resources\\DB Queries\\DB Populate.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-11T15:55:41.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T15:21:49.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T15:18:22.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Service\\Service.cs",
               "RelativeDocumentMoniker": "Service\\Service.cs",
@@ -46,12 +113,11 @@
               "RelativeToolTip": "Service\\Service.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T17:29:52.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T17:29:52.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Repository\\Repository.cs",
@@ -59,20 +125,18 @@
               "RelativeToolTip": "Repository\\Repository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T17:10:12.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T17:10:12.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DB Tables Creation Script.sql ",
+              "DocumentIndex": 2,
+              "Title": "DB Tables Creation Script.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Tables Creation Script.sql",
               "RelativeDocumentMoniker": "Resources\\DB Queries\\DB Tables Creation Script.sql",
               "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\DB Queries\\DB Tables Creation Script.sql",
               "RelativeToolTip": "Resources\\DB Queries\\DB Tables Creation Script.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-09T17:05:17.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T17:05:17.037Z"
             },
             {
               "$type": "Document",
@@ -83,8 +147,7 @@
               "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-06T10:50:20.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T10:50:20.427Z"
             },
             {
               "$type": "Document",
@@ -96,8 +159,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAcwBcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T10:50:14.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T10:50:14.495Z"
             }
           ]
         }
