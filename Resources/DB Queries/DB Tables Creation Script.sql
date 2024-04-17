@@ -10,6 +10,7 @@
 --drop table [Posts]
 --drop table [Votes]
 
+--Replace DateTime with Date if the post type is DateOnly
 create table [Users](
 [id] bigint identity primary key,
 [name] varchar(255) not null
