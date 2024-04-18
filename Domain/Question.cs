@@ -5,6 +5,8 @@
         public string Title { get; set; } = newTitle;
         public string Category { get; } = newCategory;
 
+        //this should also have a list of tags
+
         public override string ToString()
         {
             return $"Question(postID: {PostID}, userID: {UserID}, title:{Title} , category: {Category}, date: {Date}, editFlag: {EditFlag}, postType: {PostType}) \n" + $"{Content} \n" + $"votes: {ToStringVoteList()} \n";

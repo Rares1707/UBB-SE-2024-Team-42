@@ -6,7 +6,7 @@
         public string UserName { get; set; } = newUserName;
         public List<Notification> NotificationList { get; set; } = newNotificationList;
         public List<Category> CategoriesModeratedList { get; set; } = newCategoriesModeratedList;
-        public List<Vote> VoteList { get; set; } = newVoteList;
+        public List<Vote> VoteList { get; set; } = newVoteList; //not needed
         public List<Badge> BadgeList { get; set; } = newBadgeList;
 
         private string ToStringNotificationList()

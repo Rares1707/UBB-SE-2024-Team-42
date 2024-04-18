@@ -3,7 +3,7 @@
     public class Tag(long newTagId, long newQuestionID, string newTagName)
     {
         public long TagID { get; } = newTagId;
-        public long QuestionID { get; } = newQuestionID;
+        public long QuestionID { get; } = newQuestionID; //not needed
         public string TagName { get; set; } = newTagName;
 
         public override string ToString()

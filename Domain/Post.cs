@@ -2,11 +2,13 @@
 {
     public class Post(long newPostID, long newUserID, string newContent, DateOnly newDate, bool newEditFlag, string newPostType, List<Vote> newVoteList)
     {
+        //add datePosted as datetime
+        //add dateOfLastEdit as datetime
         public long PostID { get; } = newPostID;
         public long UserID { get; } = newUserID;
         public string Content { get; set; } = newContent;
-        public DateOnly Date { get; } = newDate;
-        public bool EditFlag { get; set; } = newEditFlag;
+        public DateOnly Date { get; } = newDate; //delete this
+        public bool EditFlag { get; set; } = newEditFlag; //delete this
         public string PostType { get; } = newPostType;
         public List<Vote> VoteList { get; set; } = newVoteList;
 

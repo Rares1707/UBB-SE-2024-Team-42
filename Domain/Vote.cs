@@ -5,7 +5,7 @@
         public long VoteID { get; } = newVoteID;
         public int VoteValue { get; set; } = newVoteValue;
         public long UserIDWhoVoted { get; } = newUserIDWhoVoted;
-        public long PostID { get; } = newPostID;
+        public long PostID { get; } = newPostID; //not needed
 
         public override string ToString()
         {
