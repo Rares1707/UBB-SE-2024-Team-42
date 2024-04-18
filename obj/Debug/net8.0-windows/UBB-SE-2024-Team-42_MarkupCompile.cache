@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\
+C:\Users\Rares\Desktop\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\
 UBB_SE_2024_Team_42
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\App.xaml
-32048415513
+C:\Users\Rares\Desktop\UBB-SE-2024-Team-42\App.xaml
+51146971372
 
-16-366577784
-205-148300984
-GUI\CoolTextBox.xaml;GUI\SearchQuestionPage.xaml;MainWindow.xaml;
+18-343167903
+205112513659
+GUI\AreYouSurePopUp.xaml;GUI\CoolTextBox.xaml;GUI\SearchQuestionPage.xaml;GUI\SettingsPop-Up.xaml;MainWindow.xaml;
 
 False
 

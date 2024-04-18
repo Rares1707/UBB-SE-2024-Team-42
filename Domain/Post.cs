@@ -1,14 +1,12 @@
 ﻿namespace UBB_SE_2024_Team_42.Domain
 {
-    public class Post(long newPostID, long newUserID, string newContent, DateOnly newDate, bool newEditFlag, string newPostType, List<Vote> newVoteList)
+    public class Post(long newPostID, long newUserID, string newContent, string newPostType, List<Vote> newVoteList, DateTime newDatePosted, DateTime newDateOfLastEdit)
     {
-        //add datePosted as datetime
-        //add dateOfLastEdit as datetime
         public long PostID { get; } = newPostID;
         public long UserID { get; } = newUserID;
         public string Content { get; set; } = newContent;
-        public DateOnly Date { get; } = newDate; //delete this
-        public bool EditFlag { get; set; } = newEditFlag; //delete this
+        public DateTime datePosted { get; } = newDatePosted;
+        public DateTime dateOfLastEdit { get; set; } = newDateOfLastEdit;
         public string PostType { get; } = newPostType;
         public List<Vote> VoteList { get; set; } = newVoteList;
 
@@ -25,7 +23,7 @@
 
         public override string ToString()
         {
-            return $"{PostType}(postID: {PostID}, userID: {UserID}, date: {Date}, editFlag: {EditFlag}) \n" + $"{Content} \n" + $"votes: {ToStringVoteList()} \n";
+            return $"{PostType}(postID: {PostID}, userID: {UserID}, datePosted: {datePosted}, dateOfLastEdit: {dateOfLastEdit}) \n" + $"{Content} \n" + $"votes: {ToStringVoteList()} \n";
         }
 
         public void AddVote(string newVote)
