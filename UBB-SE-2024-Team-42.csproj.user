@@ -7,6 +7,26 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="GUI\AreYouSurePopUp.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI\CoolTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GUI\SearchQuestionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="GUI\AreYouSurePopUp.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\CoolTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\SearchQuestionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
