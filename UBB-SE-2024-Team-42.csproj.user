@@ -16,6 +16,9 @@
     <Compile Update="GUI\SearchQuestionPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GUI\SettingsPop-Up.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="GUI\AreYouSurePopUp.xaml">
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\SearchQuestionPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\SettingsPop-Up.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">

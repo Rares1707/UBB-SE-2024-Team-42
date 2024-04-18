@@ -3,111 +3,115 @@
   "WorkspaceRootPath": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\settingspop-up.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\settingspop-up.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\areyousurepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\areyousurepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\gui\\areyousurepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\areyousurepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\areyousurepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\gui\\cooltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\cooltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\cooltextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\gui\\cooltextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\cooltextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\cooltextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\gui\\searchquestionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\searchquestionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\searchquestionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\gui\\searchquestionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\gui\\searchquestionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:gui\\searchquestionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\ubb-se-2024-team-42.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\ubb-se-2024-team-42.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:ubb-se-2024-team-42.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\badge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\mystuff\\college\\college_projects\\iss\\2ndtry\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -118,15 +122,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingsPop-Up.xaml",
+              "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\SettingsPop-Up.xaml",
+              "RelativeDocumentMoniker": "GUI\\SettingsPop-Up.xaml",
+              "ToolTip": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\SettingsPop-Up.xaml",
+              "RelativeToolTip": "GUI\\SettingsPop-Up.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-18T20:05:34.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AreYouSurePopUp.xaml.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\AreYouSurePopUp.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\AreYouSurePopUp.xaml.cs",
@@ -138,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AreYouSurePopUp.xaml",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\AreYouSurePopUp.xaml",
               "RelativeDocumentMoniker": "GUI\\AreYouSurePopUp.xaml",
@@ -150,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CoolTextBox.xaml.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\CoolTextBox.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\CoolTextBox.xaml.cs",
@@ -162,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CoolTextBox.xaml",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\CoolTextBox.xaml",
               "RelativeDocumentMoniker": "GUI\\CoolTextBox.xaml",
@@ -173,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SearchQuestionPage.xaml.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\SearchQuestionPage.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\SearchQuestionPage.xaml.cs",
@@ -185,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SearchQuestionPage.xaml",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\GUI\\SearchQuestionPage.xaml",
               "RelativeDocumentMoniker": "GUI\\SearchQuestionPage.xaml",
@@ -196,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -207,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -219,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UBB-SE-2024-Team-42.csproj",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\UBB-SE-2024-Team-42.csproj",
               "RelativeDocumentMoniker": "UBB-SE-2024-Team-42.csproj",
@@ -231,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Question.cs",
               "RelativeDocumentMoniker": "Domain\\Question.cs",
@@ -243,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Notification.cs",
               "RelativeDocumentMoniker": "Domain\\Notification.cs",
@@ -255,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "Domain\\Category.cs",
@@ -267,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Badge.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Badge.cs",
               "RelativeDocumentMoniker": "Domain\\Badge.cs",
@@ -279,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Post.cs",
               "RelativeDocumentMoniker": "Domain\\Post.cs",
@@ -291,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Vote.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Vote.cs",
               "RelativeDocumentMoniker": "Domain\\Vote.cs",
@@ -303,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\Tag.cs",
               "RelativeDocumentMoniker": "Domain\\Tag.cs",
@@ -315,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Tags CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
@@ -326,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Notifications CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
@@ -337,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Domain\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User.cs",
@@ -349,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Votes CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
@@ -360,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Badges CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
@@ -371,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Categories CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
@@ -382,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Users CRUD.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
@@ -393,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Repository\\Repository.cs",
@@ -405,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -417,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "DB Populate.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\DB Populate.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\DB Populate.sql",
@@ -428,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DB Tables Creation Script.sql",
               "DocumentMoniker": "C:\\MyStuff\\COLLEGE\\College_Projects\\ISS\\2ndTry\\Resources\\Database\\DB Tables Creation Script.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\DB Tables Creation Script.sql",
