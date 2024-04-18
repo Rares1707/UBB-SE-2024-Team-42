@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UBB_SE_2024_Team_42"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Search Question" Height="562" Width="800">
+    <Grid Background="#625ed7">
 
+        
     </Grid>
 </Window>
