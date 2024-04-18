@@ -1,5 +1,6 @@
 ﻿use Team42DB
 
+
 INSERT INTO [Users] ([name])
 VALUES ('Alice'), ('Bob'), ('Charlie');
 
@@ -48,13 +49,13 @@ INSERT INTO [Posts] ([userId], [content], [datePosted], [type])
 VALUES (3, 'Great advice! I''ve found that collaborating on GitHub projects also helps.', GETDATE(), 'comment');
 
 INSERT INTO [Votes] ([postId], [userId], [value])
-VALUES (1, 4, 1);
+VALUES (1, 3, 1);
 
 INSERT INTO [Votes] ([postId], [userId], [value])
-VALUES (2, 5, -1);
+VALUES (2, 2, -1);
 
 INSERT INTO [Votes] ([postId], [userId], [value])
-VALUES (3, 6, 1);
+VALUES (3, 1, 1);
 
 insert into [Tags] ([name])
 values ('Trees')
@@ -79,8 +80,6 @@ select * from [Moderates]
 select * from [Notifications]
 select * from [Replies]
 select * from [Votes]
-
-
 
 
 

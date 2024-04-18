@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\db tables creation script.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
@@ -31,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,8 +67,28 @@
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\db populate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\categories crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\badges crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\notifications crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\tags crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\users crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\votes crud.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +98,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Votes CRUD.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T12:28:40.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Tags CRUD.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T12:27:40.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notifications CRUD.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T12:26:54.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Badges CRUD.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T12:26:19.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Categories CRUD.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-18T12:21:19.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\User.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\User.cs",
+              "RelativeToolTip": "Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T16:19:05.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Users CRUD.sql ",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
@@ -70,19 +186,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DB Populate.sql ",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Populate.sql",
-              "RelativeDocumentMoniker": "Resources\\Database\\DB Populate.sql",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Populate.sql",
-              "RelativeToolTip": "Resources\\Database\\DB Populate.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-11T15:55:41.098Z",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T15:18:22.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
+              "RelativeToolTip": "Repository\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T17:10:12.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -95,17 +223,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-11T15:18:22.178Z"
+              "Title": "DB Populate.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Populate.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\DB Populate.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Populate.sql",
+              "RelativeToolTip": "Resources\\Database\\DB Populate.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-11T15:55:41.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Service\\Service.cs",
               "RelativeDocumentMoniker": "Service\\Service.cs",
@@ -117,19 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
-              "RelativeToolTip": "Repository\\Repository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T17:10:12.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "DB Tables Creation Script.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Tables Creation Script.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\DB Tables Creation Script.sql",
@@ -140,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -151,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
