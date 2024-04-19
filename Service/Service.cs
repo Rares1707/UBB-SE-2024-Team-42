@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UBB_SE_2024_Team_42.Domain;
 using UBB_SE_2024_Team_42.Repository;
 
 namespace UBB_SE_2024_Team_42.Service
@@ -18,5 +19,9 @@ namespace UBB_SE_2024_Team_42.Service
             this.repository = repository;
         }
 
+        public User getUser(long userId)
+        {
+            return repository.getUser(userId);
+        }
     }
 }

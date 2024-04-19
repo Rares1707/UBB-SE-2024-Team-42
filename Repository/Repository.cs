@@ -172,5 +172,27 @@ namespace UBB_SE_2024_Team_42.Repository
         return voteList;
     }
 
+    public List<Category> getAllCategories()
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand("select * from dbo.getAllCategories", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            dataAdapter.Fill(dataTable);
+
+            List<Category> categoryList = new List<Category>();
+            for (int i = 0; i < dataTable.Rows.Count; i++)
+            {
+                categoryList.Add(new Category(
+                    Convert.ToInt64(dataTable.Rows[i]["id"]),
+                    dataTable.Rows[i]["name"].ToString()
+                    ));
+            }
+            connection.Close();
+
+            return categoryList;
+        }
+
 }
 }
