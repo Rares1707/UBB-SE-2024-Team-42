@@ -106,7 +106,7 @@ namespace UBB_SE_2024_Team_42.Repository
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
-            SqlCommand command = new SqlCommand("select * from dbo.getCategoriesModeratedByUser(" + userId + ")", connection);
+            SqlCommand command = new SqlCommand("select * from dbo.getAllUsers()", connection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
             DataTable dataTable = new DataTable();
             dataAdapter.Fill(dataTable);
