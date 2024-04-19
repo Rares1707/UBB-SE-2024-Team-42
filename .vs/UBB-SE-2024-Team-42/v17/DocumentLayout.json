@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\getnotificationsofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\getnotificationsofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\getvotesofpost.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\getvotesofpost.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\getbadgesofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\getbadgesofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
@@ -59,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:domain\\vote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\gui\\cooltextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -121,6 +129,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\getnotificationsofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\getnotificationsofuser.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|c:\\users\\rares\\desktop\\ubb-se-2024-team-42\\resources\\database\\procedures and functions\\getvotesofpost.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C50476C1-9610-4D37-824A-B26F03700AA9}|UBB-SE-2024-Team-42.csproj|solutionrelative:resources\\database\\procedures and functions\\getvotesofpost.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,8 +146,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "getVotesOfPost.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getVotesOfPost.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getVotesOfPost.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getVotesOfPost.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getVotesOfPost.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-19T11:47:59.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "getNotificationsOfUser.sql ",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getNotificationsOfUser.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getNotificationsOfUser.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getNotificationsOfUser.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getNotificationsOfUser.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-19T11:47:58.691Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -140,36 +180,14 @@
               "RelativeDocumentMoniker": "Repository\\Repository.cs",
               "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Repository\\Repository.cs",
               "RelativeToolTip": "Repository\\Repository.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAkwHAAAAAAAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAcwHsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T17:10:12.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "getBadgesOfUser.sql",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
-              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
-              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-19T10:03:47.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "getCategoriesModeratedByUser.sql",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
-              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
-              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-19T09:54:25.446Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "SearchQuestionPage.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\SearchQuestionPage.xaml",
               "RelativeDocumentMoniker": "GUI\\SearchQuestionPage.xaml",
@@ -180,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\User.cs",
               "RelativeDocumentMoniker": "Domain\\User.cs",
@@ -192,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Badge.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Badge.cs",
               "RelativeDocumentMoniker": "Domain\\Badge.cs",
@@ -204,7 +222,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Post.cs",
+              "RelativeDocumentMoniker": "Domain\\Post.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Post.cs",
+              "RelativeToolTip": "Domain\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:35:35.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vote.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Vote.cs",
+              "RelativeDocumentMoniker": "Domain\\Vote.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Vote.cs",
+              "RelativeToolTip": "Domain\\Vote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T12:35:32.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Notification.cs",
+              "RelativeDocumentMoniker": "Domain\\Notification.cs",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Notification.cs",
+              "RelativeToolTip": "Domain\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T13:19:57.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "getCategoriesModeratedByUser.sql",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getCategoriesModeratedByUser.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-19T09:54:25.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "CoolTextBox.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\CoolTextBox.xaml",
               "RelativeDocumentMoniker": "GUI\\CoolTextBox.xaml",
@@ -215,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "SettingsPop-Up.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\SettingsPop-Up.xaml",
               "RelativeDocumentMoniker": "GUI\\SettingsPop-Up.xaml",
@@ -226,7 +294,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "getBadgesOfUser.sql",
+              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
+              "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
+              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
+              "RelativeToolTip": "Resources\\Database\\Procedures and Functions\\getBadgesOfUser.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-04-19T10:03:47.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Users CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Users CRUD.sql",
@@ -237,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "AreYouSurePopUp.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\AreYouSurePopUp.xaml",
               "RelativeDocumentMoniker": "GUI\\AreYouSurePopUp.xaml",
@@ -248,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Categories CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Categories CRUD.sql",
@@ -259,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "SearchQuestionPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\SearchQuestionPage.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\SearchQuestionPage.xaml.cs",
@@ -271,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "Domain\\Category.cs",
@@ -283,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Question.cs",
               "RelativeDocumentMoniker": "Domain\\Question.cs",
@@ -295,31 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Notification.cs",
-              "RelativeDocumentMoniker": "Domain\\Notification.cs",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Notification.cs",
-              "RelativeToolTip": "Domain\\Notification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T13:19:57.134Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Post.cs",
-              "RelativeDocumentMoniker": "Domain\\Post.cs",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Post.cs",
-              "RelativeToolTip": "Domain\\Post.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvwIAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:35:35.575Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Tag.cs",
               "RelativeDocumentMoniker": "Domain\\Tag.cs",
@@ -331,19 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Vote.cs",
-              "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Vote.cs",
-              "RelativeDocumentMoniker": "Domain\\Vote.cs",
-              "ToolTip": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Domain\\Vote.cs",
-              "RelativeToolTip": "Domain\\Vote.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T12:35:32.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "CoolTextBox.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\CoolTextBox.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\CoolTextBox.xaml.cs",
@@ -355,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -366,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AreYouSurePopUp.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\GUI\\AreYouSurePopUp.xaml.cs",
               "RelativeDocumentMoniker": "GUI\\AreYouSurePopUp.xaml.cs",
@@ -378,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -390,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "UBB-SE-2024-Team-42.csproj",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\UBB-SE-2024-Team-42.csproj",
               "RelativeDocumentMoniker": "UBB-SE-2024-Team-42.csproj",
@@ -402,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Tags CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Tags CRUD.sql",
@@ -413,7 +456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Notifications CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Notifications CRUD.sql",
@@ -424,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Votes CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Votes CRUD.sql",
@@ -435,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Badges CRUD.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\Procedures and Functions\\Badges CRUD.sql",
@@ -446,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -458,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DB Populate.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Populate.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\DB Populate.sql",
@@ -469,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "DB Tables Creation Script.sql",
               "DocumentMoniker": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-Team-42\\Resources\\Database\\DB Tables Creation Script.sql",
               "RelativeDocumentMoniker": "Resources\\Database\\DB Tables Creation Script.sql",
