@@ -13,6 +13,9 @@
     <Compile Update="GUI\CoolTextBox.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="GUI\CreateQuestionPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="GUI\SearchQuestionPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\CoolTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GUI\CreateQuestionPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GUI\SearchQuestionPage.xaml">

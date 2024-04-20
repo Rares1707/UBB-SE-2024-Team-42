@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\App.xaml
-32048415513
+61767763014
 
-16-366577784
+19590588304
 205-148300984
-GUI\CoolTextBox.xaml;GUI\SearchQuestionPage.xaml;MainWindow.xaml;
+GUI\AreYouSurePopUp.xaml;GUI\CoolTextBox.xaml;GUI\CreateQuestionPage.xaml;GUI\SearchQuestionPage.xaml;GUI\SettingsPop-Up.xaml;MainWindow.xaml;
 
 False
 

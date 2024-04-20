@@ -70,3 +70,10 @@ C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\UBB-SE-2
 C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\UBB-SE-2.8B6545E1.Up2Date
 C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\UBB-SE-2024-Team-42.genruntimeconfig.cache
 C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\ref\UBB-SE-2024-Team-42.dll
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\AreYouSurePopUp.g.cs
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\CreateQuestionPage.g.cs
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\SettingsPop-Up.g.cs
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\AreYouSurePopUp.baml
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\CreateQuestionPage.baml
+C:\MyStuff\COLLEGE\College_Projects\ISS\2ndTry\obj\Debug\net8.0-windows\GUI\SettingsPop-Up.baml

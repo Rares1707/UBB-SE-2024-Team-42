@@ -19,6 +19,7 @@ namespace UBB_SE_2024_Team_42
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Uri("GUI/SearchQuestionPage.xaml", UriKind.Relative));
         }
     }
 }
