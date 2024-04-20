@@ -12,8 +12,9 @@ using System.IO;
 namespace UBB_SE_2024_Team_42.Repository
 {
     public class Repository
-    {
-        private string sqlConnectionString = "Data Source=CamFrigLaCluj;Initial Catalog=Team42DB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+    { 
+        //Data Source = CAMFRIGLACLUJ; Initial Catalog = Lord of the Rings;Integrated Security = True
+        private string sqlConnectionString = "Data Source=CamFrigLaCluj;Initial Catalog=Team42DB;Integrated Security=True;";
 
         // no other fields required
         // when you need something, just create public functions which insert/update/retrieve data directly
@@ -21,7 +22,7 @@ namespace UBB_SE_2024_Team_42.Repository
 
         public Repository(string sqlConnectionString)
         {
-            this.sqlConnectionString = sqlConnectionString;
+            //this.sqlConnectionString = sqlConnectionString;
         }
 
         public List<Notification> getNotificationsOfUser(long userId)
@@ -206,7 +207,8 @@ namespace UBB_SE_2024_Team_42.Repository
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
-            SqlCommand command = new SqlCommand("select * from dbo.getTagsOfQuestions(" + questionId + ")", connection);
+            string commandString = "select * from dbo.getTagById(" + questionId + ")";
+            SqlCommand command = new SqlCommand(commandString, connection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
             DataTable dataTable = new DataTable();
             dataAdapter.Fill(dataTable);
@@ -241,8 +243,9 @@ namespace UBB_SE_2024_Team_42.Repository
 
             return new Question(Convert.ToInt64(dataTable.Rows[0]["id"]), Convert.ToInt64(dataTable.Rows[0]["userId"]),
                                 dataTable.Rows[0]["title"].ToString(), category,
-                                dataTable.Rows[0]["content"].ToString(), Convert.ToDateTime(dataTable.Rows[0]["datePosted"]),
-                                Convert.ToDateTime(dataTable.Rows[0]["dateOfLastEdit"]), dataTable.Rows[0]["type"].ToString(),
+                                dataTable.Rows[0]["content"].ToString(), 
+                                Convert.ToDateTime(dataTable.Rows[0]["datePosted"]),
+                                dataTable.Rows[0]["dateOfLastEdit"]==DBNull.Value ? Convert.ToDateTime(dataTable.Rows[0]["datePosted"]) : Convert.ToDateTime(dataTable.Rows[0]["dateOfLastEdit"]), dataTable.Rows[0]["type"].ToString(),
                                 voteList, tagList);
         }
 
@@ -250,7 +253,7 @@ namespace UBB_SE_2024_Team_42.Repository
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
-            SqlCommand command = new SqlCommand("select * from dbo.getAllQuestions", connection);
+            SqlCommand command = new SqlCommand("select * from dbo.getAllQuestions()", connection);
             SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
             DataTable dataTable = new DataTable();
             dataAdapter.Fill(dataTable);
@@ -297,7 +300,7 @@ namespace UBB_SE_2024_Team_42.Repository
                 long id = Convert.ToInt64(dataTable.Rows[i]["id"]);
                 long userId = Convert.ToInt64(dataTable.Rows[i]["userId"]);
                 DateTime datePosted = Convert.ToDateTime(dataTable.Rows[i]["datePosted"]);
-                DateTime dateOfLastEdit = Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"];
+                DateTime dateOfLastEdit = Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]);
                 string type = dataTable.Rows[i]["type"].ToString();
                 string content = dataTable.Rows[i]["content"].ToString();
                 List<Vote> votes = getVotesOfPost(postId);
