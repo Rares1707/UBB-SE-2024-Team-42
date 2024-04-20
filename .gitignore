@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+.vs/*
+
+bin/*
+
+UBB-SE-2024-Team-42.csproj.user
