@@ -5,48 +5,18 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UBB_SE_2024_Team_42.GUI"
       mc:Ignorable="d" 
-      d:DesignHeight="800" d:DesignWidth="1200"
+      d:DesignHeight="1200" d:DesignWidth="1200"
       Title="ViewQuestionPage">
 
     <Grid Background="#625ed7">
-        <!-- Top DockPanel -->
-        <DockPanel LastChildFill="False" Margin="-1,0,1,652" RenderTransformOrigin="0.5,0.5">
-            <DockPanel.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="2.237"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="4.161"/>
-                </TransformGroup>
-            </DockPanel.RenderTransform>
-            <Image x:Name="Logo" RenderTransformOrigin="0.47,0.466" DockPanel.Dock="Left" Width="100" Height="71"/>
-            <TextBox x:Name="SearchBox" TextWrapping="Wrap" Text="Search" Width="282" Height="21"/>
-            <Button x:Name="AskNewQuestion" Content="AskNewQuestion" Width="NaN" Height="27"/>
-            <Button x:Name="ProfileButton" Content="Profile" Width="NaN" Height="37"/>
-        </DockPanel>
-
         <StackPanel>
             <TextBlock x:Name="Category" Text="Category" FontSize="18" Width="937" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
-            <DockPanel Width="1186">
-                <StackPanel>
-                    <Button x:Name="Upvote_Button" Height="48" Width="99" VerticalAlignment="Top" HorizontalAlignment="Center">
-                        <Image/>
-                    </Button>
-                    <TextBlock x:Name="Question_Score" Text="15.k" Foreground="#FFF4F0F0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-                    <Button x:Name="Downvote_Button" Height="49" Width="96" RenderTransformOrigin="0.496,0.583" HorizontalAlignment="Center" >
-                        <Image x:Name="Downvote_Image"/>
-                    </Button>
-                </StackPanel>
-                <TextBlock x:Name="Question_Title" Text="Title"/>
-                <Button x:Name="Settings" Width="35" Height="81" VerticalAlignment="Center" HorizontalAlignment="Right">
-                    <Image />
-                </Button>
-            </DockPanel>
+            <TextBlock x:Name="Question_Title" Text="Title" FontSize="36"/>
             <!--TODO: Special String made in the background and bound here-->
-            <TextBlock x:Name="Question_Details" Text="12/04/24 19:35 by @UserName"/>
-            <TextBlock x:Name="Question_Content" Text="Question_Content"/>
-            <DockPanel>
-                <ItemsControl>
+            <TextBlock x:Name="Question_Details" Text="12/04/24 19:35 by @UserName" FontSize="20"/>
+            <TextBlock x:Name="Question_Content" Text="Question_Content" FontSize="20" Height="514"/>
+            <DockPanel Width="1006">
+                <ItemsControl Width="614">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
                             <WrapPanel />
@@ -58,10 +28,10 @@
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
-                <Button x:Name="Back" Content="Back"/>
-                <Button x:Name="Reply" Content="Reply"/>
+                <Button x:Name="Back" Content="Back" Width="120" Height="54"/>
+                <Button x:Name="Reply" Content="Reply" Height="54" Width="213" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
             </DockPanel>
-            <ItemsControl>
+            <ItemsControl Height="483">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
 
