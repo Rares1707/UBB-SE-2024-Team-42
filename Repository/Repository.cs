@@ -122,8 +122,8 @@ namespace UBB_SE_2024_Team_42.Repository
              return user;
         }
 
-    public List<User> getAllUsers()
-    {
+        public List<User> getAllUsers()
+        {
         SqlConnection connection = new SqlConnection(sqlConnectionString);
         connection.Open();
         SqlCommand command = new SqlCommand("select * from dbo.getAllUsers()", connection);
@@ -147,11 +147,11 @@ namespace UBB_SE_2024_Team_42.Repository
         connection.Close();
 
         return userList;
-    }
+        }
 
 
-    public List<Vote> getVotesOfPost(long postId)
-    {
+        public List<Vote> getVotesOfPost(long postId)
+        {
         SqlConnection connection = new SqlConnection(sqlConnectionString);
         connection.Open();
         SqlCommand command = new SqlCommand("select * from dbo.getVotesOfPost(" + postId + ")", connection);
@@ -170,9 +170,9 @@ namespace UBB_SE_2024_Team_42.Repository
         connection.Close();
 
         return voteList;
-    }
+        }
 
-    public List<Category> getAllCategories()
+        public List<Category> getAllCategories()
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
@@ -194,5 +194,10 @@ namespace UBB_SE_2024_Team_42.Repository
             return categoryList;
         }
 
-}
+        public void addQuestion(Question question)
+        {
+
+        }
+
+    }
 }
