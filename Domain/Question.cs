@@ -1,9 +1,9 @@
 ﻿namespace UBB_SE_2024_Team_42.Domain
 {
-    public class Question(long newPostID, long newUserID, string newTitle, string newCategory, string newContent, DateTime newDatePosted, DateTime newDateOfLastEdit, string newPostType, List<Vote> newVoteList, List<Tag> newTagList) : Post(newPostID, newUserID, newContent, newPostType, newVoteList, newDatePosted, newDateOfLastEdit)
+    public class Question(long newPostID, long newUserID, string newTitle, Category newCategory, string newContent, DateTime newDatePosted, DateTime newDateOfLastEdit, string newPostType, List<Vote> newVoteList, List<Tag> newTagList) : Post(newPostID, newUserID, newContent, newPostType, newVoteList, newDatePosted, newDateOfLastEdit)
     {
         public string Title { get; set; } = newTitle;
-        public string Category { get; } = newCategory;
+        public Category Category { get; } = newCategory;
 
         public List<Tag> Tags { get; set; } = newTagList;
 
