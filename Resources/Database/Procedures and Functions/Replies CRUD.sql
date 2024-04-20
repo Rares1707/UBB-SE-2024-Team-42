@@ -38,6 +38,9 @@ CREATE OR ALTER FUNCTION GetAllRepliesOfPost(@postId BIGINT)
 RETURNS TABLE
 AS
 RETURN
-    (SELECT * FROM Replies WHERE idOfPostRepliedOn = @postId);
+    (SELECT P.id id, P.userId userId, P.content content, P.datePosted datePosted, 
+	P.dateOfLastEdit dateOfLastEdit, P.[type] [type], P.title title, P.categoryId categoryId
+	FROM Replies R inner join Posts P on P.id=R.idOfReply  WHERE R.idOfPostRepliedOn = @postId);
 GO
 
+select * from dbo.GetAllRepliesOfPost(1)

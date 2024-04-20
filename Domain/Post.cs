@@ -2,6 +2,9 @@
 {
     public class Post(long newPostID, long newUserID, string newContent, string newPostType, List<Vote> newVoteList, DateTime newDatePosted, DateTime newDateOfLastEdit)
     {
+        public const string QUESTION_TYPE = "question";
+        public const string COMMENT_TYPE = "comment";
+        public const string ANSWER_TYPE = "answer";
         public long PostID { get; } = newPostID;
         public long UserID { get; } = newUserID;
         public string Content { get; set; } = newContent;
