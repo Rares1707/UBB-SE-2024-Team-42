@@ -27,9 +27,9 @@ namespace UBB_SE_2024_Team_42.GUI
 
             Posts = new ObservableCollection<Question>
             {
-               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>())
+               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateOnly(2024, 4, 16), false, "Question", new List<Vote>()),
+               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateOnly(2024, 4, 16), false, "Question", new List<Vote>()),
+               new Question(1, 1, "How to use WPF?", "UI", "I'm having trouble understanding WPF. Can someone help me?", new DateOnly(2024, 4, 16), false, "Question", new List<Vote>())
             };
             DataContext = this; // Set DataContext to enable data binding
         }
