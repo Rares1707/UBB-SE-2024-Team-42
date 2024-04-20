@@ -33,8 +33,8 @@
                 <Image />
             </Button>
         </DockPanel>
-            <ListView Height="100" Width="928">
-                <ListView.ItemTemplate>
+            <ItemsControl Height="100" Width="928">
+                <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Border>
                             <StackPanel>
@@ -66,8 +66,8 @@
                             </StackPanel>
                         </Border>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </StackPanel>
     </Grid>
 </UserControl>

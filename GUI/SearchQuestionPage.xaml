@@ -27,8 +27,8 @@
 
         <!-- ListView -->
         <DockPanel LastChildFill="False" Margin="0,156,0,0" HorizontalAlignment="Center" Width="800">
-            <ListView x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}" SelectionChanged="QuestionList_SelectionChanged">
-                <ListView.ItemTemplate>
+            <ItemsControl x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}">
+                <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Border>
                             <StackPanel>
@@ -55,8 +55,8 @@
                             </StackPanel>
                         </Border>
                     </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </DockPanel>
     </Grid>
 </Page>
