@@ -23,5 +23,16 @@ namespace UBB_SE_2024_Team_42.Service
         {
             return repository.getUser(userId);
         }
+
+        public List<Question> getAllQuestions()
+        {
+            return repository.getAllQuestions();
+        }
+
+        public List<Post> getRepliesOfPost(Post post)
+        {
+            return repository.getRepliesOfPost(post.PostID);
+        }
+
     }
 }
