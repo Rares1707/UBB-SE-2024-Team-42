@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UBB-SE-2024-Team-42")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0e61b77c4da2de145fe9a388bf243a66701066")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d72b34c0e73f8a5cb83a35b748609792c0433ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("UBB-SE-2024-Team-42")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UBB-SE-2024-Team-42")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
