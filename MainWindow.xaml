@@ -8,6 +8,6 @@
         Title="Search Question" Height="562" Width="800">
     <Grid Background="#625ed7">
 
-        
+		<Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
     </Grid>
 </Window>
