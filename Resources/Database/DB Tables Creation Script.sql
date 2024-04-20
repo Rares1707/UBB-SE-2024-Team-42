@@ -2,19 +2,18 @@
 --drop table [Owns]
 --drop table [Tags]
 --drop table [Notifications]
---drop table [Users]
 --drop table [Moderates]
 --drop table [Replies]
---drop table [Categories]
 --drop table [Badges]
---drop table [Posts]
 --drop table [Votes]
+--drop table [Posts]
+--drop table [Users]
+--drop table [Categories]
 
 create table [Users](
 [id] bigint identity primary key,
 [name] varchar(255) not null
 )
-
 create table [Categories](
 [id] bigint identity primary key,
 [name] varchar(255) not null
@@ -56,6 +55,7 @@ create table [Replies](
 -- the ids must be different
 -- answers can only reply to questions
 -- questions cannot reply to anything
+-- commnents can reply to everything
 [idOfPostRepliedOn] bigint not null foreign key references [Posts]([id]),
 [idOfReply] bigint not null foreign key references [Posts]([id]),
 primary key([idOfPostRepliedOn], [idOfReply])
@@ -84,9 +84,9 @@ create table [Notifications](
 -- users get notifications when someone replies for one of their posts or when they get a new badge
 -- there is a 'text' field in the class diagram. The text will be generated when an object of Notification type will be instantiated, there is no need to store it here
 -- optional: clicking on a reply notification should take the user to that reply 
-[id] bigint not null primary key,
+[id] bigint identity not null primary key,
 [userId] bigint not null foreign key references [Users]([id]),
 [postId] bigint foreign key references [Posts]([id]),
 [badgeId] bigint foreign key references [Badges]([id]),
-constraint [typeOfNotificationConstraint] check ( (([postId]<>null)and([badgeId]=null)) or  (([postId]=null)and([badgeId]<>null)) )
+constraint [typeOfNotificationConstraint] check ( (([postId] is null)and([badgeId] is not null)) or  (([postId] is not null)and([badgeId] is null)) )
 )
