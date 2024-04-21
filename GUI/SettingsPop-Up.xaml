@@ -5,22 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UBB_SE_2024_Team_42.GUI"
         mc:Ignorable="d"
-        Title="SettingsPop_Up" Height="550" Width="800">
-    <Grid Margin="0,0,0,0" Background="#FF625ED7">
-        <TextBlock Text="Settings" Margin="41,10,511,456" FontSize="50" FontWeight="Bold"></TextBlock>
-        <Button Margin="41,130,104,329" Background="Black" Foreground="#FFF7F7F7">
+        Title="SettingsPop_Up" Height="350" Width="800">
+    <Grid Margin="0,0,0,-62" Background="#FF625ED7">
+        <TextBlock Text="Settings" Margin="41,10,511,211" FontSize="50" FontWeight="Bold"></TextBlock>
+        <Button x:Name="Edit_Button" Margin="41,109,104,168" Background="Black" Foreground="#FFF7F7F7" Click="Edit_Button_Click">
             <DockPanel>
                 <Image/>
                 <TextBlock Text="EDIT" FontSize="40" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold"/>
             </DockPanel>
         </Button>
-        <Button Margin="40,230,104,229" Foreground="White" Background="#FF6C06AA">
-            <DockPanel>
-                <Image/>
-                <TextBlock Text="SAVE" FontSize="40" FontWeight="Bold"/>
-            </DockPanel>
-        </Button>
-        <Button Margin="40,338,105,118" Background="#FF6C06AA" Foreground="White">
+        <Button x:Name="Delete_Button" Margin="41,279,104,10" Background="#FF6C06AA" Foreground="White" Click="Delete_Button_Click">
             <DockPanel>
                 <Image/>
                 <TextBlock FontSize="40" Text="DELETE" FontWeight="Bold"/>
