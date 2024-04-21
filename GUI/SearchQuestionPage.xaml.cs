@@ -50,5 +50,6 @@ namespace UBB_SE_2024_Team_42.GUI
             // Update the DataContext to refresh the UI
             DataContext = this;
         }
+
     }
 }

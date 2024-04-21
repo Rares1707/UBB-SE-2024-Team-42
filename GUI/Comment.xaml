@@ -8,31 +8,40 @@
              d:DesignHeight="250" d:DesignWidth="1000">
     <Grid Background="#1C1332" Margin="10,0,0,0">
         <StackPanel>
-        <DockPanel>
-            <StackPanel Height="138">
-                <Button x:Name="Upvote_Button" Height="48" Width="99" VerticalAlignment="Top" HorizontalAlignment="Center">
-                    <Image/>
-                </Button>
-                <TextBlock x:Name="Question_Score" Text="15.k" Foreground="#FFF4F0F0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-                <Button x:Name="Downvote_Button" Height="49" Width="96" RenderTransformOrigin="0.496,0.583" HorizontalAlignment="Center" >
-                    <Image x:Name="Downvote_Image"/>
-                </Button>
-            </StackPanel>
-            <StackPanel Width="595" Height="111">
-                <TextBlock x:Name="Comment_Content" Text="Sample" FontSize="48" Foreground="#FFEEEDED"/>
-                <DockPanel>
-                    <TextBlock x:Name="UserName" Foreground="#FF6F6868" FontSize="36" Width="151" Text="Sample" FontWeight="Bold" FontFamily="Calibri Light"/>
-                    <TextBlock x:Name="Date_Time_Posted" Text="23/05/2024" Foreground="#FFA9A8A8" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="22" FontFamily="Sylfaen"/>
-                </DockPanel>
-            </StackPanel>
-            <Button x:Name="Reply_Button" Width="107" Height="46">
+            <DockPanel>
+                <StackPanel Height="138">
+                    <Button x:Name="Upvote_Button" Height="48" Width="99" VerticalAlignment="Top" HorizontalAlignment="Center">
+                        <Image/>
+                    </Button>
+                    <TextBlock x:Name="Question_Score" Text="15.k" Foreground="#FFF4F0F0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
+                    <Button x:Name="Downvote_Button" Height="49" Width="96" RenderTransformOrigin="0.496,0.583" HorizontalAlignment="Center" >
+                        <Image x:Name="Downvote_Image"/>
+                    </Button>
+                </StackPanel>
+                <StackPanel Width="595" Height="111">
+                    <TextBlock x:Name="Comment_Content" Text="{Binding Content}" FontSize="48" Foreground="#FFEEEDED"/>
+                    <DockPanel>
+                        <TextBlock x:Name="UserName" Foreground="#FF6F6868" FontSize="36" Width="260" Text="TODO: Username" FontWeight="Bold" FontFamily="Calibri Light"/>
+                        <TextBlock x:Name="Date_Time_Posted" Text="{Binding datePosted}" Foreground="#FFA9A8A8" FontSize="22" FontFamily="Sylfaen" RenderTransformOrigin="0.5,0.5" Width="14">
+                            <TextBlock.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform ScaleX="-1"/>
+                                    <SkewTransform/>
+                                    <RotateTransform/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </TextBlock.RenderTransform>
+                        </TextBlock>
+                    </DockPanel>
+                </StackPanel>
+                <Button x:Name="Reply_Button" Width="107" Height="46">
                     <!--Image/-->
                     <TextBlock Text="Settings"/>
                 </Button>
-            <Button x:Name="Settings_Button" Width="92" Height="52">
-                <Image />
-            </Button>
-        </DockPanel>
+                <Button x:Name="Settings_Button" Width="92" Height="52">
+                    <Image />
+                </Button>
+            </DockPanel>
             <ItemsControl Height="100" Width="928">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>

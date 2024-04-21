@@ -20,8 +20,11 @@ namespace UBB_SE_2024_Team_42.GUI
     /// </summary>
     public partial class ViewQuestionPage : Page
     {
-        public ViewQuestionPage()
-        {
+        private WindowManager _manager;
+
+        public ViewQuestionPage(WindowManager manager) { 
+        
+            _manager = manager;
             InitializeComponent();
         }
     }

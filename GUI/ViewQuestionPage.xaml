@@ -34,7 +34,7 @@
             <ItemsControl Height="483">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-
+                        <local:Comment Content="{Binding Content}"  Date="{Binding datePosted}"></local:Comment>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
