@@ -8,13 +8,13 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="CreateQuestionPage">
 
-    <Grid Background="#3A2788" Margin="0,0,-475,-343">
-        <local:CoolTextBox HorizontalAlignment="Left" Margin="127,0,0,0" VerticalAlignment="Center" Height="403" Loaded="CoolTextBox_Loaded" Width="762"/>
-        <TextBox HorizontalAlignment="Left" Margin="127,109,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="407" Height="61"/>
-        <ComboBox HorizontalAlignment="Left" Margin="842,109,0,0" VerticalAlignment="Top" Width="316" Height="61"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="898,654,0,0" VerticalAlignment="Top" Height="58" Width="204"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="583,654,0,0" VerticalAlignment="Top" Height="58" Width="203"/>
-        <TextBox HorizontalAlignment="Left" Margin="127,654,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="300" Height="80"/>
+    <Grid Background="#3A2788" Margin="0,0,-467,-365">
+        <local:CoolTextBox x:Name="ContentBox" HorizontalAlignment="Left" Margin="0,83,0,0" VerticalAlignment="Top" Height="403" Loaded="CoolTextBox_Loaded" Width="762"/>
+        <TextBox x:Name="TitleBox" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="407" Height="61"/>
+        <ComboBox x:Name="CategoryBox1" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="316" Height="61" ItemsSource="{Binding Categories}" DisplayMemberPath="CategoryName"  SelectionChanged="CategoryBox1_SelectionChanged"/>
+        <Button x:Name="BackButton" Content="Button" HorizontalAlignment="Left" Margin="898,654,0,0" VerticalAlignment="Top" Height="58" Width="204"/>
+        <Button x:Name="PostBtn" Content="Post" HorizontalAlignment="Left" Margin="315,497,0,0" VerticalAlignment="Top" Height="58" Width="204" Click="PostBtn_Click"/>
+        <TextBox x:Name="TagBox" HorizontalAlignment="Left" Margin="10,491,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="300" Height="80"/>
 
     </Grid>
 </Page>

@@ -225,18 +225,11 @@ namespace UBB_SE_2024_Team_42.Service
             return this.repository.getCommentsOfUser(userId);
         }
 
-        public void addQuestion(string title, string content, string category)
-        {
-
-            List<Category> categories = repository.getAllCategories();
-            foreach (Category cat in categories)
-            {
-                if (cat.CategoryName == category)
-                {
-                    Question question = new Question(0, 1, title, cat, content, new DateTime(), new DateTime(), "question", null, null);
-                    repository.addQuestion(question);
-                }
-            }
+        public void addQuestion(string title, string content, Category category)
+        { 
+            Question question = new Question(0, 1, title, category, content, new DateTime(), new DateTime(), "question", null, null);
+            repository.addQuestion(question);
+               
         }
 
         }
