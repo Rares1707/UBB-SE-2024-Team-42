@@ -28,6 +28,11 @@ namespace UBB_SE_2024_Team_42.GUI
             ApplyFormatting("**");
         }
 
+        public string GetText()
+        {
+            return MarkdownTextBox.Text;
+        }
+
         // Method to apply formatting to the selected text in the TextBox
         private void ApplyFormatting(string formattingTag)
         {
@@ -38,6 +43,8 @@ namespace UBB_SE_2024_Team_42.GUI
             // Apply formatting to selected text
             string newText = text.Insert(selectionStart, formattingTag);
             newText = newText.Insert(selectionStart + selectionLength + formattingTag.Length, formattingTag);
+
+
 
             // Update TextBox text and selection
             MarkdownTextBox.Text = newText;

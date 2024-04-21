@@ -231,3 +231,13 @@ namespace UBB_SE_2024_Team_42.Service
         }
     }
 }
+
+        public void addQuestion(string title, string content, Category category)
+        { 
+            Question question = new Question(0, 1, title, category, content, new DateTime(), new DateTime(), "question", null, null);
+            repository.addQuestion(question);
+               
+        }
+
+        }
+    }
