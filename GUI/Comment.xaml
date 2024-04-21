@@ -19,19 +19,10 @@
                     </Button>
                 </StackPanel>
                 <StackPanel Width="595" Height="111">
-                    <TextBlock x:Name="Comment_Content" Text="{Binding Content}" FontSize="48" Foreground="#FFEEEDED"/>
+                    <TextBlock x:Name="Comment_Content" Text="{Binding Path = Content}" FontSize="48" Foreground="#FFEEEDED"/>
                     <DockPanel>
                         <TextBlock x:Name="UserName" Foreground="#FF6F6868" FontSize="36" Width="260" Text="TODO: Username" FontWeight="Bold" FontFamily="Calibri Light"/>
-                        <TextBlock x:Name="Date_Time_Posted" Text="{Binding datePosted}" Foreground="#FFA9A8A8" FontSize="22" FontFamily="Sylfaen" RenderTransformOrigin="0.5,0.5" Width="14">
-                            <TextBlock.RenderTransform>
-                                <TransformGroup>
-                                    <ScaleTransform ScaleX="-1"/>
-                                    <SkewTransform/>
-                                    <RotateTransform/>
-                                    <TranslateTransform/>
-                                </TransformGroup>
-                            </TextBlock.RenderTransform>
-                        </TextBlock>
+                        <TextBlock x:Name="Date_Time_Posted" Text="{Binding Path = datePosted}" Foreground="#FFA9A8A8" FontSize="22" FontFamily="Sylfaen" RenderTransformOrigin="0.5,0.5" Width="14"/>
                     </DockPanel>
                 </StackPanel>
                 <Button x:Name="Reply_Button" Width="107" Height="46">
@@ -42,6 +33,7 @@
                     <Image />
                 </Button>
             </DockPanel>
+            <!--List Of comments-->
             <ItemsControl Height="100" Width="928">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
@@ -59,7 +51,7 @@
                                         </Button>
                                     </StackPanel>
                                     <StackPanel Width="595" Height="111">
-                                        <TextBlock x:Name="Comment_Content" Text="Sample" FontSize="48" Foreground="#FFEEEDED"/>
+                                        <TextBlock x:Name="Comment_Content" Text="{Binding ContentComment}" FontSize="48" Foreground="#FFEEEDED"/>
                                         <DockPanel>
                                             <TextBlock x:Name="UserName" Foreground="#FF6F6868" FontSize="36" Width="151" Text="Sample" FontWeight="Bold" FontFamily="Calibri Light"/>
                                             <TextBlock x:Name="Date_Time_Posted" Text="23/05/2024" Foreground="#FFA9A8A8" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontSize="22" FontFamily="Sylfaen"/>
