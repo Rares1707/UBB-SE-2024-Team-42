@@ -33,9 +33,9 @@ namespace UBB_SE_2024_Team_42.Service
             return repository.getAllQuestions();
         }
 
-        public List<Post> getRepliesOfPost(Post post)
+        public List<Post> getRepliesOfPost(long postId)
         {
-            return repository.getRepliesOfPost(post.PostID);
+            return repository.getRepliesOfPost(postId);
         }
 
         public List<Question> getQuestionsOfCategory(Category category)
@@ -223,6 +223,11 @@ namespace UBB_SE_2024_Team_42.Service
         public List<Post> getCommnentsOfUser(long userId)
         {
             return this.repository.getCommentsOfUser(userId);
+        }
+
+        public List<Tag> getTagsOfQuestion(long questionId)
+        {
+            return this.repository.getTagsOfQuestion(questionId);
         }
     }
 }

@@ -29,7 +29,7 @@
             <StackPanel>-->
                 <!-- ListView -->
         <DockPanel LastChildFill="False" Margin="0,156,0,0" HorizontalAlignment="Center" Width="800">
-            <ItemsControl x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}">
+            <ItemsControl x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}" Tag="{Binding Posts}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <Border>

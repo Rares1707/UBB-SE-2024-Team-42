@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,26 +27,18 @@ namespace UBB_SE_2024_Team_42.GUI
     {
         private WindowManager _manager;
         public ObservableCollection<Post> Comments { get; set; }
-        public ObservableCollection<Tag> Tags { get; set; }
-        public ViewQuestionPage(WindowManager manager)
+        public ObservableCollection<Tag> Tags  { get; set; }
+        public ViewQuestionPage(WindowManager manager, Question question)
         {
 
             _manager = manager;
             InitializeComponent();
+            Service.Service service = _manager.Service;
+            //Service service = _manager.Service;
             DataContext = this;
-            Comments = new ObservableCollection<Post>
-            {
-                new Post(1, 1, "Lorem Ipsum Dolor est sit amet", "Comment", new List<Vote> { new Vote(1, 4) }, new DateTime(2, 2, 2), new DateTime(4, 4, 4)),
-                new Post(2, 2, "Lorem Ipsum Dolor est sit amet", "Comment", new List<Vote> { new Vote(1, 4) }, new DateTime(2, 2, 2), new DateTime(4, 4, 4))
-            };
-            Tags = new ObservableCollection<Tag>
-            {
-                new Tag(1, "Hello"),
-                new Tag(2, "Good"),
-                new Tag(3, "Bye"),
-            };
-            
-    }
+            Comments = new ObservableCollection<Post>(service.getRepliesOfPost(question.PostID));
+            Tags = new ObservableCollection<Tag>(service.getTagsOfQuestion(question.PostID));
+        }
 
         private void Back_Click(object sender, RoutedEventArgs e)
         {
