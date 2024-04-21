@@ -28,9 +28,10 @@ namespace UBB_SE_2024_Team_42.GUI
         private WindowManager _manager;
         public ObservableCollection<Post> Comments { get; set; }
         public ObservableCollection<Tag> Tags  { get; set; }
+        private Question _question;
         public ViewQuestionPage(WindowManager manager, Question question)
         {
-
+            _question = question;
             _manager = manager;
             InitializeComponent();
             Service.Service service = _manager.Service;
