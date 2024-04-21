@@ -13,11 +13,14 @@ namespace UBB_SE_2024_Team_42.Service
     {
         private Repository.Repository repository;
 
+        List<Question> currentQuestions;
+
         // no other fields required for now
 
         public Service(Repository.Repository repository)
         {
             this.repository = repository;
+            currentQuestions = getAllQuestions();
         }
 
         public User getUser(long userId)
@@ -45,6 +48,7 @@ namespace UBB_SE_2024_Team_42.Service
                 if (question.Category.CategoryName == category.CategoryName)
                     filteredQuestions.Add(question);
             }
+            currentQuestions = filteredQuestions;
             return filteredQuestions;
         }
 
@@ -64,7 +68,7 @@ namespace UBB_SE_2024_Team_42.Service
                     }
                 }
             }
-
+            currentQuestions = filteredQuestions;
             return filteredQuestions;
         }
 
@@ -100,13 +104,14 @@ namespace UBB_SE_2024_Team_42.Service
                     }
                 }
             }
+            currentQuestions = filteredQuestions;
             return filteredQuestions;
         }
 
         public List<Question> sortQuestionsByScoreAscending()
         {
             Dictionary<Question, int> hash = new Dictionary<Question, int>();
-            List<Question> listOfQuestions = this.repository.getAllQuestions();
+            List<Question> listOfQuestions = currentQuestions;
             List<Question> sortedListOfQuestions;
             foreach (Question question in listOfQuestions)
             {
@@ -143,7 +148,7 @@ namespace UBB_SE_2024_Team_42.Service
         public List<Question> sortQuestionsByNumberOfAnswersAscending()
         {
             Dictionary<Question, int> hash = new Dictionary<Question, int>();
-            List<Question> listOfQuestions = this.repository.getAllQuestions();
+            List<Question> listOfQuestions = currentQuestions;
             List<Question> sortedListOfQuestions;
             foreach (Question question in listOfQuestions)
             {
@@ -175,7 +180,7 @@ namespace UBB_SE_2024_Team_42.Service
         public List<Question> sortQuestionsByDateAscending()
         {
             Dictionary<Question, DateTime> hash = new Dictionary<Question, DateTime>();
-            List<Question> listOfQuestions = this.repository.getAllQuestions();
+            List<Question> listOfQuestions = currentQuestions;
             List<Question> sortedListOfQuestions;
             foreach (Question question in listOfQuestions)
             {

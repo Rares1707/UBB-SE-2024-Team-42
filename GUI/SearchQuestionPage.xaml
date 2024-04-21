@@ -11,7 +11,8 @@
         <!-- Top DockPanel -->
         <DockPanel LastChildFill="False" Margin="0,0,0,450">
             <Image x:Name="Logo" RenderTransformOrigin="0.47,0.466" DockPanel.Dock="Left" Width="100" Height="71"/>
-            <TextBox x:Name="SearchBox" TextWrapping="Wrap" Text="Search" Width="282" Height="21"/>
+            <TextBox x:Name="SearchBox" TextWrapping="Wrap" Text="" Width="282" Height="21" TextChanged="SearchBox_TextChanged"/>
+            <Button x:Name="searchButton" Content="Search" Width="76" Height="28" Click="searchButton_Click"/>
             <Button x:Name="AskNewQuestion" Content="AskNewQuestion" Width="NaN" Height="27"/>
             <Button x:Name="ProfileButton" Content="Profile" Width="NaN" Height="37"/>
         </DockPanel>

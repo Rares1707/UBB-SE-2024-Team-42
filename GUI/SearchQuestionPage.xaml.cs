@@ -11,7 +11,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using UBB_SE_2024_Team_42.Domain;
-
+using UBB_SE_2024_Team_42.Service;
+using UBB_SE_2024_Team_42.Repository;
 namespace UBB_SE_2024_Team_42.GUI
 {
     /// <summary>
@@ -20,23 +21,38 @@ namespace UBB_SE_2024_Team_42.GUI
     public partial class SearchQuestionPage : Page
     {
         public ObservableCollection<Question> Posts { get; set; }
+        static Repository.Repository repository = new Repository.Repository("placeholder");
+        public Service.Service service = new Service.Service(repository);
 
         public SearchQuestionPage()
         {
             InitializeComponent();
 
-            Posts = new ObservableCollection<Question>
-            {
-               new Question(1, 1, "How to use WPF?", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 16), DateTime.Now, "Question", new List<Vote>(), new List<Tag>())
-            };
+            Posts = new ObservableCollection<Question>(service.sortQuestionsByDateDescending());
             DataContext = this; // Set DataContext to enable data binding
         }
 
         private void QuestionList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+
+
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            var q = service.searchQuestion(this.SearchBox.Text);
+            Posts.Clear();
+            foreach (Question question in q)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
         }
     }
 }
