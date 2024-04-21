@@ -59,6 +59,11 @@ RETURN
     (SELECT * FROM Posts WHERE id = @id AND type = 'answer');
 GO
 
+go
+create or alter function getPostsByUserId(@userId bigint)
+returns table as
+	return (select * from Posts P where p.userId=@userId)
+go
 
 -- Function to get all answers of a question 
 CREATE OR ALTER FUNCTION GetAllAnswersOnQuestion(@questionId BIGINT)
