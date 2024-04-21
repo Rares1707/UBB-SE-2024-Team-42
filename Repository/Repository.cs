@@ -199,8 +199,29 @@ namespace UBB_SE_2024_Team_42.Repository
         {
             SqlConnection sqlConnection = new SqlConnection(sqlConnectionString);   
             sqlConnection.Open();
+            SqlCommand command = new SqlCommand("addQuestion", sqlConnection);
+            command.Parameters.AddWithValue("@userID", question.UserID);
+            command.Parameters.AddWithValue("@content", question.Content);
+            command.Parameters.AddWithValue("@title",question.Title);
+            command.Parameters.AddWithValue("@categoryId", question.Category);
+            command.CommandType = CommandType.StoredProcedure;
+            command.ExecuteNonQuery();
+            sqlConnection.Close();
 
-            //TODO finish this
+        }
+
+        public void updateQuestion(Question oldQuestion, Question newQuestion)
+        {
+            SqlConnection sqlConnection = new SqlConnection(sqlConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("updateQuestion", sqlConnection);
+            command.Parameters.AddWithValue("@questionId", oldQuestion.PostID);
+            command.Parameters.AddWithValue("@content", newQuestion.Content);
+            command.Parameters.AddWithValue("@title", newQuestion.Title);
+            command.Parameters.AddWithValue("@categoryId", newQuestion.Category);
+            command.CommandType = CommandType.StoredProcedure;
+            command.ExecuteNonQuery();
+            sqlConnection.Close()
         }
 
         public List<Tag> getTagsOfQuestion(long questionId)
@@ -322,6 +343,73 @@ namespace UBB_SE_2024_Team_42.Repository
             connection.Close();
             return postList;
         }
+
+
+        public void addPost(Post post)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = null;
+            
+            if (post.PostType == Post.ANSWER_TYPE)
+            {
+                command = new SqlCommand("addAnswer", connection);
+                command.Parameters.AddWithValue("@userId", post.UserID);
+                command.Parameters.AddWithValue("@content", post.Content);
+                command.Parameters.AddWithValue("@postId", post.PostID);
+            }
+            else if (post.PostType == Post.COMMENT_TYPE)
+            {
+                command = new SqlCommand("addComment", connection);
+                command.Parameters.AddWithValue("@userId", post.UserID);
+                command.Parameters.AddWithValue("@content", post.Content);
+                command.Parameters.AddWithValue("@postId", post.PostID);
+            }
+
+
+            if (command != null)
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.ExecuteNonQuery();
+            }
+
+            connection.close();
+
+        }
+
+        public void updatePost(Post oldPost,Post newPost)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = null;
+
+            if (oldPost.PostType == Post.ANSWER_TYPE)
+            {
+                command = new SqlCommand("updateAnswer", connection);
+                command.Parameters.AddWithValue("@answerId", oldPost.PostID);
+                command.Parameters.AddWithValue("@content", newPost.Content);
+                
+
+
+            }
+            else if (oldPost.PostType == Post.COMMENT_TYPE)
+            {
+                command = new SqlCommand("updateComment", connection);
+                command.Parameters.AddWithValue("@commentId", oldPost.PostID);
+                command.Parameters.AddWithValue("@content", newPost.Content);
+
+            }
+
+            if (command != null)
+            {
+                command.CommandType = CommandType.StoredProcedure;
+                command.ExecuteNonQuery();
+            }
+            connection.close();
+
+        }
+
+
 
     }
 }

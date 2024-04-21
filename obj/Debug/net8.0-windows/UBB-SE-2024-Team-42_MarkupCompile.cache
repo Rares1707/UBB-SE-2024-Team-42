@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\
+C:\Users\Rares\source\repos\Rares1707\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\
 UBB_SE_2024_Team_42
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\App.xaml
-51146971372
+C:\Users\Rares\source\repos\Rares1707\UBB-SE-2024-Team-42\App.xaml
+91558186356
 
-18-343167903
-205112513659
-GUI\AreYouSurePopUp.xaml;GUI\CoolTextBox.xaml;GUI\SearchQuestionPage.xaml;GUI\SettingsPop-Up.xaml;MainWindow.xaml;
+22-191347100
+198155382431
+GUI\AddComment.xaml;GUI\AreYouSurePopUp.xaml;GUI\Comment.xaml;GUI\CoolTextBox.xaml;GUI\CreateQuestionPage.xaml;GUI\SearchQuestionPage.xaml;GUI\SettingsPop-Up.xaml;GUI\ViewQuestionPage.xaml;MainWindow.xaml;
 
-False
+True
 
