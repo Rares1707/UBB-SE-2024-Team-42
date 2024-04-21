@@ -39,7 +39,7 @@ namespace UBB_SE_2024_Team_42.Repository
             {
                 notificationList.Add(new Notification(
                     Convert.ToInt64(dataTable.Rows[i]["id"]),
-                    "Placeholder text", //this should be created in the constructor without needing this parameter
+                 
                     Convert.ToInt64(dataTable.Rows[i]["postId"]),
                     Convert.ToInt64(dataTable.Rows[i]["badgeId"])
                     ));
@@ -344,11 +344,13 @@ namespace UBB_SE_2024_Team_42.Repository
             sqlConnection.Close();
         }
 
-        public void addPost(Post post)
+        public void addPostAndReply(Post post, Post postRepliedOn)
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
             SqlCommand command = null;
+            SqlCommand reply_command = null;
+
 
             if (post.PostType == Post.ANSWER_TYPE)
             {
@@ -365,11 +367,15 @@ namespace UBB_SE_2024_Team_42.Repository
                 command.Parameters.AddWithValue("@postId", post.PostID);
             }
 
-
+            reply_command = new SqlCommand("addReply", connection);
+            reply_command.Parameters.AddWithValue("@idOfPostRepliedOn", postRepliedOn.PostID);
+            reply_command.Parameters.AddWithValue("@idOfReply", post.PostID);
             if (command != null)
             {
                 command.CommandType = CommandType.StoredProcedure;
+                reply_command.CommandType = CommandType.StoredProcedure;
                 command.ExecuteNonQuery();
+                reply_command.ExecuteNonQuery();
             }
 
             connection.Close();
@@ -406,6 +412,39 @@ namespace UBB_SE_2024_Team_42.Repository
             }
             connection.Close();
 
+        }
+
+        public List<Post> getPostsOfUser(long userId)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand("select * from dbo.getPostsByUserId(" + userId + ")", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            dataAdapter.Fill(dataTable);
+
+            List<Post> postList = new List<Post>();
+            for (int i = 0; i < dataTable.Rows.Count; i++)
+            {
+                string type = dataTable.Rows[i]["type"].ToString();
+                List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
+                if (type == Post.QUESTION_TYPE)
+                {
+                    List<Tag> tagList = getTagsOfQuestion(Convert.ToInt64( dataTable.Rows[i]["id"]));
+                    Category category = getCategory(Convert.ToInt64(dataTable.Rows[i]["categoryId"]));
+
+                    postList.Add(new Question(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
+                                              dataTable.Rows[i]["title"].ToString(), category, dataTable.Rows[i]["content"].ToString(),
+                                              Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]),
+                                              type, voteList, tagList));
+                }
+                postList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
+                                      dataTable.Rows[i]["content"].ToString(), type, voteList,
+                                      Convert.ToDateTime(dataTable.Rows[i]["datePosted"]),Convert.ToDateTime( dataTable.Rows[i]["dateOfLastEdit"])));
+            }
+            connection.Close();
+
+            return postList;
         }
 
     }

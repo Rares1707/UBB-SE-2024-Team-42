@@ -45,6 +45,13 @@ namespace UBB_SE_2024_Team_42.GUI
                 new Tag(3, "Bye"),
             };
             
-    }   }
+    }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            ViewQuestionFrame.Navigate(new SearchQuestionPage(_manager));
+            //ViewQuestionFrame.Visibility = Visibility.Collapsed;
+        }
+    }
 }
 

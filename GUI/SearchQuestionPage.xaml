@@ -25,8 +25,8 @@
             <Button x:Name="MostAnswers" Content="MostAnswers" Width="NaN" Height="29" Click="MostAnswers_Click"/>
             <CheckBox x:Name="HideUnAnsweredCheckBox" Content="Hide Unanswered" Width="124" Height="14" Checked="HideUnAnsweredCheckBox_Checked" Click="HideUnAnsweredCheckBox_Click"/>
         </DockPanel>
-        <ScrollViewer>
-            <StackPanel>
+        <!--<ScrollViewer>
+            <StackPanel>-->
                 <!-- ListView -->
         <DockPanel LastChildFill="False" Margin="0,156,0,0" HorizontalAlignment="Center" Width="800">
             <ItemsControl x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}">
@@ -38,7 +38,7 @@
                                     <Image/>
                                     <!-- Set Source property -->
                                     <StackPanel>
-                                        <TextBlock Text="{Binding Title}" FontWeight="Bold"/>
+                                        <Button Content="{Binding Title}" FontWeight="Bold" Click="OnQuestion_Click"/>
                                         <TextBlock Text="{Binding Date}" FontSize="8px"/>
                                     </StackPanel>
                                     <Image/>
@@ -60,7 +60,8 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </DockPanel>
-            </StackPanel>
-        </ScrollViewer>
+            <!--</StackPanel>
+        </ScrollViewer>-->
+        <Frame x:Name="SearchFrame"/>
     </Grid>
 </Page>

@@ -2,12 +2,27 @@
 
 namespace UBB_SE_2024_Team_42.Domain
 {
-    public class Notification(long newNotficationID, string newText, long newPostID, long BadgeID)
+    public class Notification
     {
-        public long NotificationId { get; } = newNotficationID;
-        public string Text { get; set; } = newText;
-        public long PostID { get; } = newPostID;
-        public long BadgeID {  get; } = BadgeID;
+        public long NotificationId { get; }
+        public string Text { get; set; }
+        public long PostID { get; }
+        public long BadgeID {  get; } 
+
+        public Notification(long newNotficationID, long newPostID, long newBadgeID)
+        {
+            this.NotificationId = newNotficationID;
+            this.PostID = newPostID;
+            this.BadgeID = BadgeID;
+            if (newPostID != null)
+            {
+                this.Text = "Someone replied to one of your posts";
+            }
+            else if (newBadgeID != null)
+            {
+                this.Text = "You have a new badge";
+            }
+        }
 
         public override string ToString()
         {

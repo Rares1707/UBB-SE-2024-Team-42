@@ -29,7 +29,7 @@
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
-                    <Button x:Name="Back" Content="Back" Width="120" Height="54"/>
+                    <Button x:Name="Back" Content="Back" Width="120" Height="54" Click="Back_Click"/>
                     <Button x:Name="Reply" Content="Reply" Height="54" Width="213" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                 </DockPanel>
                 <ItemsControl Height="483" ItemsSource="{Binding Comments}">
@@ -41,5 +41,6 @@
                 </ItemsControl>
             </StackPanel>
         </ScrollViewer>
+        <Frame x:Name="ViewQuestionFrame"/>
     </Grid>
 </Page>

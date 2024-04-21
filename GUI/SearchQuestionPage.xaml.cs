@@ -23,13 +23,13 @@ namespace UBB_SE_2024_Team_42.GUI
         public ObservableCollection<Question> Posts { get; set; }
         public ObservableCollection<Category> Categories { get; set; }
         private Service.Service service;
-
+        private WindowManager manager;
         public SearchQuestionPage(WindowManager manager)
         {
             InitializeComponent();
             service = manager.Service;
             Posts = new ObservableCollection<Question>(service.sortQuestionsByDateDescending());
-           
+            this.manager = manager;
             Categories = new ObservableCollection<Category>(service.getAllCategories());
             DataContext = this; // Set DataContext to enable data binding
         }
@@ -126,6 +126,11 @@ namespace UBB_SE_2024_Team_42.GUI
                 Posts.Add(question);
             }
             DataContext = this;
+        }
+        //OnQuestion_Click
+        private void OnQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            SearchFrame.Navigate(new ViewQuestionPage(manager));
         }
     }
 }
