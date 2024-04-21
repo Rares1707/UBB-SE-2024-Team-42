@@ -13,10 +13,8 @@ namespace UBB_SE_2024_Team_42.GUI
 
         private void MarkdownTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
-        }
 
-       
+        }
 
         private void ItalicButton_Click(object sender, RoutedEventArgs e)
         {
@@ -31,6 +29,12 @@ namespace UBB_SE_2024_Team_42.GUI
         public string GetText()
         {
             return MarkdownTextBox.Text;
+        }
+
+        public string Text
+        {
+            get { return MarkdownTextBox.Text; }
+            set { MarkdownTextBox.Text = value; }
         }
 
         // Method to apply formatting to the selected text in the TextBox
