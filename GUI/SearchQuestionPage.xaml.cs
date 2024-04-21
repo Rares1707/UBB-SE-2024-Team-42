@@ -21,13 +21,14 @@ namespace UBB_SE_2024_Team_42.GUI
     public partial class SearchQuestionPage : Page
     {
         public ObservableCollection<Question> Posts { get; set; }
-        static Repository.Repository repository = new Repository.Repository("placeholder");
-        public Service.Service service = new Service.Service(repository);
+        //static Repository.Repository repository = new Repository.Repository("placeholder");
+        //public Service.Service service = new Service.Service(repository);
+        private Service.Service service;
 
         public SearchQuestionPage(WindowManager manager)
         {
             InitializeComponent();
-
+            service = manager.Service;
             Posts = new ObservableCollection<Question>(service.sortQuestionsByDateDescending());
             DataContext = this; // Set DataContext to enable data binding
         }
@@ -42,6 +43,17 @@ namespace UBB_SE_2024_Team_42.GUI
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            List<Question> searchedQuestions = service.searchQuestion(this.SearchBox.Text);
+            Posts.Clear();
+            foreach (Question question in searchedQuestions)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
         }
     }
 }
