@@ -29,5 +29,10 @@ namespace UBB_SE_2024_Team_42.GUI
             get { return (string)GetValue(DatePostedProperty); }
             set { SetValue(DatePostedProperty, value); }
         }
+
+        private void Settings_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

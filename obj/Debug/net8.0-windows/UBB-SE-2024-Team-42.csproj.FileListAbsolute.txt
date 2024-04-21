@@ -159,3 +159,16 @@ C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-
 C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\UBB-SE-2.8B6545E1.Up2Date
 C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\UBB-SE-2024-Team-42.genruntimeconfig.cache
 C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\ref\UBB-SE-2024-Team-42.dll
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\CreateQuestionPage.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\CreateQuestionPage.baml
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\Comment.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\ViewQuestionPage.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\Comment.baml
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\ViewQuestionPage.baml
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\AddComment.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\AddComment.baml
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\MiniProfile.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\Statistics.g.cs
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\MiniProfile.baml
+C:\Users\Rares\Desktop\UBB-SE-2024-TEAM-42\UBB-SE-2024-Team-42\obj\Debug\net8.0-windows\GUI\Statistics.baml

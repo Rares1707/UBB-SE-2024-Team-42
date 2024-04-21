@@ -132,5 +132,17 @@ namespace UBB_SE_2024_Team_42.GUI
         {
             SearchFrame.Navigate(new ViewQuestionPage(manager));
         }
+
+        private void askQuestion_Click(object sender, RoutedEventArgs e)
+        {
+            SearchFrame.Navigate(new CreateQuestionPage(manager));
+        }
+
+        private void openProfile_Click(object sender, RoutedEventArgs e)
+        {
+            //SearchFrame.Navigate(new MiniProfile(manager));
+            MiniProfile miniProfile = new MiniProfile(manager);
+            miniProfile.Show();
+        }
     }
 }

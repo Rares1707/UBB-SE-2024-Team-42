@@ -20,9 +20,12 @@ namespace UBB_SE_2024_Team_42.GUI
     /// </summary>
     public partial class CreateQuestionPage : Page
     {
-        public CreateQuestionPage()
+        WindowManager manager;
+
+        public CreateQuestionPage(WindowManager manager)
         {
             InitializeComponent();
+            this.manager = manager;
         }
 
         private void CoolTextBox_Loaded(object sender, RoutedEventArgs e)

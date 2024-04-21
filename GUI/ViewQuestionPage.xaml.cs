@@ -52,6 +52,11 @@ namespace UBB_SE_2024_Team_42.GUI
             ViewQuestionFrame.Navigate(new SearchQuestionPage(_manager));
             //ViewQuestionFrame.Visibility = Visibility.Collapsed;
         }
+
+        private void ViewQuestionFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
     }
 }
 

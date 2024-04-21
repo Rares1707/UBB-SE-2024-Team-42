@@ -10,12 +10,12 @@
         <StackPanel>
             <DockPanel>
                 <StackPanel Height="138">
-                    <Button x:Name="Upvote_Button" Height="48" Width="99" VerticalAlignment="Top" HorizontalAlignment="Center">
-                        <Image/>
+                    <Button x:Name="Upvote_Button" Height="48" Width="99" VerticalAlignment="Top" HorizontalAlignment="Center" Content="Upvote">
+                        <!--<Image/>-->
                     </Button>
                     <TextBlock x:Name="Question_Score" Text="15.k" Foreground="#FFF4F0F0" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18"/>
-                    <Button x:Name="Downvote_Button" Height="49" Width="96" RenderTransformOrigin="0.496,0.583" HorizontalAlignment="Center" >
-                        <Image x:Name="Downvote_Image"/>
+                    <Button x:Name="Downvote_Button" Height="49" Width="96" RenderTransformOrigin="0.496,0.583" HorizontalAlignment="Center" Content="Downvote">
+                        <!--<Image x:Name="Downvote_Image"/>-->
                     </Button>
                 </StackPanel>
                 <StackPanel Width="595" Height="111">
@@ -27,11 +27,9 @@
                 </StackPanel>
                 <Button x:Name="Reply_Button" Width="107" Height="46">
                     <!--Image/-->
-                    <TextBlock Text="Settings"/>
+                    <TextBlock Text="Reply"/>
                 </Button>
-                <Button x:Name="Settings_Button" Width="92" Height="52">
-                    <Image />
-                </Button>
+                <Button x:Name="Settings_Button" Content="Settings" DockPanel.Dock="Bottom" Click="Settings_Button_Click" Height="52" Width="185"/>
             </DockPanel>
             <!--List Of comments-->
             <ItemsControl Height="100" Width="928">

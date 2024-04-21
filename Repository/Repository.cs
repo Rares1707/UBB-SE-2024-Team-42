@@ -13,8 +13,8 @@ namespace UBB_SE_2024_Team_42.Repository
 {
     public class Repository
     { 
-        //Data Source = CAMFRIGLACLUJ; Initial Catalog = Lord of the Rings;Integrated Security = True
-        private string sqlConnectionString = (@"Data Source=WINDOWS\SQLEXPRESS;Initial Catalog=Team42;Integrated Security=True;");
+        //Data Source = CAMFRIGLACLUJ; Initial Catalog = Team42DB;Integrated Security = True
+        private string sqlConnectionString = (@"Data Source=CAMFRIGLACLUJ;Initial Catalog=Team42DB;Integrated Security=True;");
 
         // no other fields required
         // when you need something, just create public functions which insert/update/retrieve data directly

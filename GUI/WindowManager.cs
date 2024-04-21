@@ -11,6 +11,7 @@ namespace UBB_SE_2024_Team_42.GUI
     {
         private Repository.Repository repository;
         private Service.Service service;
+
         public Repository.Repository Repository
         {
             get { return repository; }

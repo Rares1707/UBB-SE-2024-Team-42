@@ -19,9 +19,12 @@ namespace UBB_SE_2024_Team_42.GUI
     /// </summary>
     public partial class MiniProfile : Window
     {
-        public MiniProfile()
+        WindowManager manager;
+
+        public MiniProfile(WindowManager manager)
         {
             InitializeComponent();
+            this.manager = manager;
         }
 
         private void BadgeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
