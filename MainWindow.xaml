@@ -9,5 +9,7 @@
     <Grid Background="#625ed7">
 
 		<Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+        <Button x:Name="Statistics_Button" Content="View_Statistics" Margin="328,221,328,230" FontSize="20" Background="MediumPurple" Click="Statistics_Click"/>
+        <Button x:Name="Start_App" Content="Start" Margin="280,321,280,99" FontSize="30" Background="AntiqueWhite" Click="Start_Click4"/>
     </Grid>
 </Window>

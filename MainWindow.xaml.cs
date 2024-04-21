@@ -21,6 +21,16 @@ namespace UBB_SE_2024_Team_42
         {
             manager = new WindowManager();
             InitializeComponent();
+            
+        }
+
+        private void Start_Click4(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Statistics(manager));
+        }
+
+        private void Statistics_Click(object sender, RoutedEventArgs e)
+        {
             MainFrame.Navigate(new SearchQuestionPage(manager));
         }
     }
