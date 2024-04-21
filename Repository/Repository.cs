@@ -14,7 +14,7 @@ namespace UBB_SE_2024_Team_42.Repository
     public class Repository
     { 
         //Data Source = CAMFRIGLACLUJ; Initial Catalog = Team42DB;Integrated Security = True
-        private string sqlConnectionString = (@"Data Source=CAMFRIGLACLUJ;Initial Catalog=Team42DB;Integrated Security=True;");
+        private string sqlConnectionString = (@"Data Source = DESKTOP-F6HM4JS; Initial Catalog = Team42DB; Integrated Security = True;");
 
         // no other fields required
         // when you need something, just create public functions which insert/update/retrieve data directly
@@ -455,9 +455,20 @@ namespace UBB_SE_2024_Team_42.Repository
                 List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
                 if (type == Post.COMMENT_TYPE)
                 {
+                    DateTime datePosted = Convert.ToDateTime(dataTable.Rows[i]["datePosted"]);
+                    DateTime dateOfLastEdit;
+                    try
+                    {
+                        dateOfLastEdit = Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]);
+                        
+                    }
+                    catch (Exception e)
+                    {
+                        dateOfLastEdit = DateTime.Today;
+                    }
                     commentList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
                                           dataTable.Rows[i]["content"].ToString(), type, voteList,
-                                          Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));
+                                          datePosted, dateOfLastEdit));
                 }
             }
             connection.Close();
