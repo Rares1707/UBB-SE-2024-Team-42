@@ -11,7 +11,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using UBB_SE_2024_Team_42.Domain;
-using System.Linq;
+using UBB_SE_2024_Team_42.Service;
+using UBB_SE_2024_Team_42.Repository;
 namespace UBB_SE_2024_Team_42.GUI
 {
     /// <summary>
@@ -20,17 +21,14 @@ namespace UBB_SE_2024_Team_42.GUI
     public partial class SearchQuestionPage : Page
     {
         public ObservableCollection<Question> Posts { get; set; }
+        static Repository.Repository repository = new Repository.Repository("placeholder");
+        public Service.Service service = new Service.Service(repository);
 
         public SearchQuestionPage(WindowManager manager)
         {
             InitializeComponent();
 
-            Posts = new ObservableCollection<Question>
-            {
-               new Question(1, 1, "How to use WPF?1", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 17), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?2", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 18), DateTime.Now, "Question", new List<Vote>(), new List<Tag>()),
-               new Question(1, 1, "How to use WPF?3", new Category(1, "UI"), "I'm having trouble understanding WPF. Can someone help me?", new DateTime(2024, 4, 11), DateTime.Now, "Question", new List<Vote>(), new List<Tag>())
-            };
+            Posts = new ObservableCollection<Question>(service.sortQuestionsByDateDescending());
             DataContext = this; // Set DataContext to enable data binding
         }
 
@@ -39,17 +37,11 @@ namespace UBB_SE_2024_Team_42.GUI
 
         }
 
-        private void QuestionButton_Click(object sender, RoutedEventArgs e)
+
+
+        private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
-
-        private void NewestSort_Click(object sender, RoutedEventArgs e)
-        {
-            Posts = new ObservableCollection<Question>(Posts.OrderByDescending(q => q.datePosted));
-            // Update the DataContext to refresh the UI
-            DataContext = this;
-        }
-
     }
 }
