@@ -23,5 +23,25 @@ namespace UBB_SE_2024_Team_42.GUI
         {
             InitializeComponent();
         }
+
+        private void Answer_Radio_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Comment_Radio_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Submit_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Cancel_Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

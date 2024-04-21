@@ -19,9 +19,24 @@ namespace UBB_SE_2024_Team_42.GUI
     /// </summary>
     public partial class SettingsPop_Up : Window
     {
-        public SettingsPop_Up()
+        private WindowManager _manager;
+        private long _id;
+
+        public SettingsPop_Up(WindowManager manager, long question_id)
         {
+            _manager = manager;
+            _id = question_id;
             InitializeComponent();
+        }
+
+        private void Edit_Button_Click(object sender, RoutedEventArgs e)
+        {
+            _manager.Repository.updatePost();
+        }
+
+        private void Delete_Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
