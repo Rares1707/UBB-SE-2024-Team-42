@@ -24,7 +24,7 @@ namespace UBB_SE_2024_Team_42.GUI
         static Repository.Repository repository = new Repository.Repository("placeholder");
         public Service.Service service = new Service.Service(repository);
 
-        public SearchQuestionPage()
+        public SearchQuestionPage(WindowManager manager)
         {
             InitializeComponent();
 
@@ -42,17 +42,6 @@ namespace UBB_SE_2024_Team_42.GUI
         private void SearchBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
-        }
-
-        private void searchButton_Click(object sender, RoutedEventArgs e)
-        {
-            var q = service.searchQuestion(this.SearchBox.Text);
-            Posts.Clear();
-            foreach (Question question in q)
-            {
-                Posts.Add(question);
-            }
-            DataContext = this;
         }
     }
 }

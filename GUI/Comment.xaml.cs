@@ -20,9 +20,29 @@ namespace UBB_SE_2024_Team_42.GUI
     /// </summary>
     public partial class Comment : UserControl
     {
+        public static readonly DependencyProperty ContentPropertyComment =
+            DependencyProperty.Register("Content", typeof(string), typeof(Comment), new PropertyMetadata(""));
+
+        public static readonly DependencyProperty DatePostedProperty =
+            DependencyProperty.Register("Date", typeof(string), typeof(Comment), new PropertyMetadata(""));
+
+        public string CommentContent
+        {
+            get { return (string)GetValue(ContentPropertyComment); }
+            set { SetValue(ContentPropertyComment, value); }
+        }
+
+
+        public string Date
+        {
+            get { return (string)GetValue(DatePostedProperty); }
+            set { SetValue(DatePostedProperty, value); }
+        }
+
         public Comment()
         {
             InitializeComponent();
+            DataContext = this;
         }
     }
 }
