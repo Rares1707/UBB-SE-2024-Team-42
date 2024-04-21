@@ -31,7 +31,7 @@
                 <Button x:Name="Back" Content="Back" Width="120" Height="54"/>
                 <Button x:Name="Reply" Content="Reply" Height="54" Width="213" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
             </DockPanel>
-            <ItemsControl Height="483">
+            <ItemsControl Height="483" ItemsSource="{Binding Comments}">
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <local:Comment Content="{Binding Content}"  Date="{Binding datePosted}"></local:Comment>
