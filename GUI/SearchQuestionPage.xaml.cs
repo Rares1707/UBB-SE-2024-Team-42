@@ -21,8 +21,7 @@ namespace UBB_SE_2024_Team_42.GUI
     public partial class SearchQuestionPage : Page
     {
         public ObservableCollection<Question> Posts { get; set; }
-        //static Repository.Repository repository = new Repository.Repository("placeholder");
-        //public Service.Service service = new Service.Service(repository);
+        public ObservableCollection<Category> Categories { get; set; }
         private Service.Service service;
 
         public SearchQuestionPage(WindowManager manager)
@@ -30,6 +29,8 @@ namespace UBB_SE_2024_Team_42.GUI
             InitializeComponent();
             service = manager.Service;
             Posts = new ObservableCollection<Question>(service.sortQuestionsByDateDescending());
+           
+            Categories = new ObservableCollection<Category>(service.getAllCategories());
             DataContext = this; // Set DataContext to enable data binding
         }
 
@@ -54,6 +55,36 @@ namespace UBB_SE_2024_Team_42.GUI
                 Posts.Add(question);
             }
             DataContext = this;
+        }
+
+        private void CategorySelector_SelectionChanged(object sender,SelectionChangedEventArgs e)
+        {
+            //service.getQuestionsOfCategory()
+            var selectedCategory = this.CategorySelector.SelectedItem as Category;
+            List<Question> questionsOfCategory = service.getQuestionsOfCategory(selectedCategory);
+            //Posts = service.getQuestionsOfCategory(selectedCategory) as ObservableCollection<Posts>;
+            Posts.Clear();
+            foreach (Question question in questionsOfCategory)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
+        }
+
+        private void NewestSortButton_Click(object sender, RoutedEventArgs e)
+        {
+            List<Question> questions = service.sortQuestionsByDateDescending();
+            Posts.Clear();
+            foreach (Question question in questions)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
+        }
+
+        private void MostUpvotesSortButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

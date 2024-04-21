@@ -19,9 +19,9 @@
 
         <!-- Middle DockPanel -->
         <DockPanel LastChildFill="False" Margin="0,96,0,390">
-            <ComboBox x:Name="CategorySelector" Width="100" Height="30"/>
+            <ComboBox x:Name="CategorySelector" Width="100" Height="30" ItemsSource="{Binding Categories}" DisplayMemberPath="CategoryName" SelectionChanged="CategorySelector_SelectionChanged"/>
             <Button x:Name="NewestSortButton" Content="Newest" Width="NaN" Height="28"/>
-            <Button x:Name="MostUpvotesSortButton" Content="MostUpvoted" Width="NaN" Height="29"/>
+            <Button x:Name="MostUpvotesSortButton" Content="MostUpvoted" Width="NaN" Height="29" Click="MostUpvotesSortButton_Click"/>
             <Button x:Name="MostAnswers" Content="MostAnswers" Width="NaN" Height="29"/>
             <CheckBox x:Name="HideUnAnsweredCheckBox" Content="Hide Unanswered" Width="124" Height="14"/>
         </DockPanel>

@@ -199,5 +199,10 @@ namespace UBB_SE_2024_Team_42.Service
             questions.Reverse();
             return questions;
         }
+
+        public List<Category> getAllCategories()
+        {
+            return repository.getAllCategories();
+        }
     }
 }
