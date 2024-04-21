@@ -84,7 +84,48 @@ namespace UBB_SE_2024_Team_42.GUI
 
         private void MostUpvotesSortButton_Click(object sender, RoutedEventArgs e)
         {
+            List<Question> questions = service.sortQuestionsByScoreDescending();
+            Posts.Clear();
+            foreach (Question question in questions)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
+        }
 
+        private void MostAnswers_Click(object sender, RoutedEventArgs e)
+        {
+            List<Question> questions = service.sortQuestionsByNumberOfAnswersDescending();
+            Posts.Clear();
+            foreach (Question question in questions)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
+        }
+
+        private void HideUnAnsweredCheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void HideUnAnsweredCheckBox_Click(object sender, RoutedEventArgs e)
+        {
+            List<Question> questions;
+            if (this.HideUnAnsweredCheckBox.IsChecked == true)
+            { 
+               questions = service.getQuestionsWithAtLeastOneAnswer();
+            }
+            else
+            {
+                questions = service.getCurrentQuestions();
+            }
+            Posts.Clear();
+            foreach (Question question in questions)
+            {
+                Posts.Add(question);
+            }
+            DataContext = this;
         }
     }
 }

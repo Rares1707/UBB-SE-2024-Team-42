@@ -7,7 +7,7 @@
     mc:Ignorable="d"
     Title="Search Question" Height="562" Width="800">
     <Grid Background="#625ed7">
-
+        
         <!-- Top DockPanel -->
         <DockPanel LastChildFill="False" Margin="0,0,0,450">
             <Image x:Name="Logo" RenderTransformOrigin="0.47,0.466" DockPanel.Dock="Left" Width="100" Height="71"/>
@@ -22,11 +22,12 @@
             <ComboBox x:Name="CategorySelector" Width="100" Height="30" ItemsSource="{Binding Categories}" DisplayMemberPath="CategoryName" SelectionChanged="CategorySelector_SelectionChanged"/>
             <Button x:Name="NewestSortButton" Content="Newest" Width="NaN" Height="28"/>
             <Button x:Name="MostUpvotesSortButton" Content="MostUpvoted" Width="NaN" Height="29" Click="MostUpvotesSortButton_Click"/>
-            <Button x:Name="MostAnswers" Content="MostAnswers" Width="NaN" Height="29"/>
-            <CheckBox x:Name="HideUnAnsweredCheckBox" Content="Hide Unanswered" Width="124" Height="14"/>
+            <Button x:Name="MostAnswers" Content="MostAnswers" Width="NaN" Height="29" Click="MostAnswers_Click"/>
+            <CheckBox x:Name="HideUnAnsweredCheckBox" Content="Hide Unanswered" Width="124" Height="14" Checked="HideUnAnsweredCheckBox_Checked" Click="HideUnAnsweredCheckBox_Click"/>
         </DockPanel>
-
-        <!-- ListView -->
+        <ScrollViewer>
+            <StackPanel>
+                <!-- ListView -->
         <DockPanel LastChildFill="False" Margin="0,156,0,0" HorizontalAlignment="Center" Width="800">
             <ItemsControl x:Name="QuestionList"  DockPanel.Dock="Top" Height="388" Width="656" ItemsSource="{Binding Posts}">
                 <ItemsControl.ItemTemplate>
@@ -59,5 +60,7 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </DockPanel>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>

@@ -24,17 +24,17 @@ namespace UBB_SE_2024_Team_42.GUI
             InitializeComponent();
         }
 
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void BadgeList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
-        private void ListView_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+        private void QuestionList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
-        private void ListView_SelectionChanged_2(object sender, SelectionChangedEventArgs e)
+        private void AnswerList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

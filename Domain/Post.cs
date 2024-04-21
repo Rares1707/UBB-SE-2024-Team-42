@@ -29,9 +29,19 @@
             return $"{PostType}(postID: {PostID}, userID: {UserID}, datePosted: {datePosted}, dateOfLastEdit: {dateOfLastEdit}) \n" + $"{Content} \n" + $"votes: {ToStringVoteList()} \n";
         }
 
-        public void AddVote(string newVote)
+        public void AddVote(Vote vote)
         {
-            Console.WriteLine(1);
+            VoteList.Add(vote);
+        }
+
+        public int getScore()
+        {
+            int score = 0;
+            foreach (Vote vote in VoteList)
+            {
+                score += vote.VoteValue;
+            }
+            return score;
         }
 
     }

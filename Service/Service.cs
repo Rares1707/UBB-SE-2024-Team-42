@@ -68,7 +68,7 @@ namespace UBB_SE_2024_Team_42.Service
                     }
                 }
             }
-            currentQuestions = filteredQuestions;
+            //currentQuestions = filteredQuestions;
             return filteredQuestions;
         }
 
@@ -138,7 +138,7 @@ namespace UBB_SE_2024_Team_42.Service
         private int getVoteScore(List<Vote> voteList)
         {
             int score = 0;
-            for (int i = 0; i <= voteList.Count; i++)
+            for (int i = 0; i < voteList.Count; i++)
             {
                 score += voteList[i].VoteValue;
             }
@@ -203,6 +203,11 @@ namespace UBB_SE_2024_Team_42.Service
         public List<Category> getAllCategories()
         {
             return repository.getAllCategories();
+        }
+
+        public List<Question> getCurrentQuestions()
+        {
+            return currentQuestions;
         }
     }
 }
