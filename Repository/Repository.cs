@@ -345,18 +345,20 @@ namespace UBB_SE_2024_Team_42.Repository
         }
 
 
-        public void addPost(Post post)
+        public void addPostAndReply(Post post, Post postRepliedOn)
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
             SqlCommand command = null;
-            
+            SqlCommand reply_command=null
+
+
             if (post.PostType == Post.ANSWER_TYPE)
             {
                 command = new SqlCommand("addAnswer", connection);
                 command.Parameters.AddWithValue("@userId", post.UserID);
                 command.Parameters.AddWithValue("@content", post.Content);
-                command.Parameters.AddWithValue("@postId", post.PostID);
+                command.Parameters.AddWithValue("@postId", post.PostID);  
             }
             else if (post.PostType == Post.COMMENT_TYPE)
             {
@@ -366,11 +368,15 @@ namespace UBB_SE_2024_Team_42.Repository
                 command.Parameters.AddWithValue("@postId", post.PostID);
             }
 
-
+            reply_command = new SqlCommand("addReply", connection);
+            reply_command.Parameters.AddWithValue("@idOfPostRepliedOn", postRepliedOn.PostID);
+            reply_command.Parameters.AddWithValue("@idOfReply", post.PostID);
             if (command != null)
             {
                 command.CommandType = CommandType.StoredProcedure;
+                reply_command.CommandType=CommandType.StoredProcedure;
                 command.ExecuteNonQuery();
+                reply_command.ExecuteNonQuery();
             }
 
             connection.close();
