@@ -25,11 +25,14 @@
                         <TextBlock x:Name="Date_Time_Posted" Text="{Binding Path = datePosted}" Foreground="#FFA9A8A8" FontSize="22" FontFamily="Sylfaen" RenderTransformOrigin="0.5,0.5" Width="14"/>
                     </DockPanel>
                 </StackPanel>
+                <StackPanel Width="240" Height="103">
                 <Button x:Name="Reply_Button" Width="107" Height="46">
                     <!--Image/-->
                     <TextBlock Text="Reply"/>
                 </Button>
+                
                 <Button x:Name="Settings_Button" Content="Settings" DockPanel.Dock="Bottom" Click="Settings_Button_Click" Height="52" Width="185"/>
+                </StackPanel>
             </DockPanel>
             <!--List Of comments-->
             <ItemsControl Height="100" Width="928">

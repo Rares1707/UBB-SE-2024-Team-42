@@ -457,6 +457,17 @@ namespace UBB_SE_2024_Team_42.Repository
                 List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
                 if (type == Post.COMMENT_TYPE)
                 {
+                    DateTime datePosted = Convert.ToDateTime(dataTable.Rows[i]["datePosted"]);
+                    DateTime dateOfLastEdit;
+                    try
+                    {
+                        dateOfLastEdit = Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]);
+                        
+                    }
+                    catch (Exception e)
+                    {
+                        dateOfLastEdit = DateTime.Today;
+                    }
                     commentList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
                                           dataTable.Rows[i]["content"].ToString(), type, voteList,
                                           Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), dataTable.Rows[i]["dateOfLastEdit"] == DBNull.Value ? Convert.ToDateTime(dataTable.Rows[i]["datePosted"]) : Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));

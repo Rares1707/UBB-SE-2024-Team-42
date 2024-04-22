@@ -11,37 +11,34 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using UBB_SE_2024_Team_42.Domain;
 
 namespace UBB_SE_2024_Team_42.GUI
 {
     /// <summary>
     /// Interaction logic for AddComment.xaml
     /// </summary>
-    public partial class AddComment : Window
+    public partial class EditPost : Window
     {
-        public AddComment()
+        private Post _post;
+        private WindowManager _manager;
+        public EditPost(WindowManager manager, Post post)
         {
+            _manager = manager;
+            _post = post;
             InitializeComponent();
-        }
-
-        private void Answer_Radio_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Comment_Radio_Checked(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            string text = Coolest_TextBox_Ever.Text;
+            Post newPost = new Post(_post.PostID, _post.UserID, text, _post.PostType, _post.VoteList, _post.datePosted, _post.dateOfLastEdit);
+            _manager.Repository.updatePost(_post, newPost);
         }
 
         private void Cancel_Button_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }

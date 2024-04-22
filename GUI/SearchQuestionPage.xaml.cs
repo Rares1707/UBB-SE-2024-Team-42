@@ -130,7 +130,8 @@ namespace UBB_SE_2024_Team_42.GUI
         //OnQuestion_Click
         private void OnQuestion_Click(object sender, RoutedEventArgs e)
         {
-            SearchFrame.Navigate(new ViewQuestionPage(manager));
+            Question myQuestion = (Question)((Button)sender).DataContext;
+            SearchFrame.Navigate(new ViewQuestionPage(manager, myQuestion));
         }
 
         private void askQuestion_Click(object sender, RoutedEventArgs e)

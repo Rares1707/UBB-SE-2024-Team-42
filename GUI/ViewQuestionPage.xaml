@@ -9,13 +9,13 @@
       Title="ViewQuestionPage">
 
     <Grid Background="#625ed7">
-        <ScrollViewer Width="1600">
-            <StackPanel Width="1600">
-                <TextBlock x:Name="Category" Text="Category" FontSize="18" Width="937" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
-                <TextBlock x:Name="Question_Title" Text="Title" FontSize="36"/>
+        <ScrollViewer >
+            <StackPanel >
+                <TextBlock x:Name="Category" Text="{Binding Category}"  FontSize="18" Width="937" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"/>
+                <TextBlock x:Name="Question_Title" Text="{Binding Title}" FontSize="36"/>
                 <!--TODO: Special String made in the background and bound here-->
-                <TextBlock x:Name="Question_Details" Text="12/04/24 19:35 by @UserName" FontSize="20"/>
-                <TextBlock x:Name="Question_Content" Text="Question_Content" FontSize="20" Height="514"/>
+                <TextBlock x:Name="Question_Details" Text="TODO make change the text to a string of type 12/02/2003 by USERNAME" FontSize="20"/>
+                <TextBlock x:Name="Question_Content" Text="{Binding Content}" FontSize="20" Height="514"/>
                 <DockPanel Width="1006">
                     <ItemsControl Width="614" ItemsSource="{Binding Tags}">
                         <ItemsControl.ItemsPanel>
@@ -32,7 +32,7 @@
                     <Button x:Name="Back" Content="Back" Width="120" Height="54" Click="Back_Click"/>
                     <Button x:Name="Reply" Content="Reply" Height="54" Width="213" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
                 </DockPanel>
-                <ItemsControl Height="483" Width="1600" ItemsSource="{Binding Comments}">
+                <ItemsControl Height="483" ItemsSource="{Binding Comments}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <local:Comment Content="{Binding Content}" DatePosted="{Binding datePosted}"></local:Comment>

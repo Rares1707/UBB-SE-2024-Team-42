@@ -33,9 +33,9 @@ namespace UBB_SE_2024_Team_42.Service
             return repository.getAllQuestions();
         }
 
-        public List<Post> getRepliesOfPost(Post post)
+        public List<Post> getRepliesOfPost(long postId)
         {
-            return repository.getRepliesOfPost(post.PostID);
+            return repository.getRepliesOfPost(postId);
         }
 
         public List<Question> getQuestionsOfCategory(Category category)
@@ -224,6 +224,23 @@ namespace UBB_SE_2024_Team_42.Service
         {
             return this.repository.getCommentsOfUser(userId);
         }
+
+        public List<Tag> getTagsOfQuestion(long questionId)
+        {
+            return this.repository.getTagsOfQuestion(questionId);
+        }
+    }
+}
+
+        public void addQuestion(string title, string content, Category category)
+        { 
+            Question question = new Question(0, 1, title, category, content, new DateTime(), new DateTime(), "question", null, null);
+            repository.addQuestion(question);
+               
+        }
+
+        }
+    }
 
         public List<Badge> getBadgesOfUser(long userId)
         {
