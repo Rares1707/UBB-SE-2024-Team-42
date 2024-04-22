@@ -209,5 +209,20 @@ namespace UBB_SE_2024_Team_42.Service
         {
             return currentQuestions;
         }
+
+        public List<Post> getAnswersOfUser(long userId)
+        {
+            return this.repository.getAnswersOfUser(userId);
+        }
+
+        public List<Question> getQuestionsOfUser(long userId)
+        {
+            return this.repository.getQuestionsOfUser(userId);
+        }
+
+        public List<Post> getCommnentsOfUser(long userId)
+        {
+            return this.repository.getCommentsOfUser(userId);
+        }
     }
 }

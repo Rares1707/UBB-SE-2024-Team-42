@@ -14,7 +14,7 @@ namespace UBB_SE_2024_Team_42.Repository
     public class Repository
     { 
         //Data Source = CAMFRIGLACLUJ; Initial Catalog = Lord of the Rings;Integrated Security = True
-        private string sqlConnectionString = "Data Source=CamFrigLaCluj;Initial Catalog=Team42DB;Integrated Security=True;";
+        private string sqlConnectionString = (@"Data Source=WINDOWS\SQLEXPRESS;Initial Catalog=Team42;Integrated Security=True;");
 
         // no other fields required
         // when you need something, just create public functions which insert/update/retrieve data directly
@@ -413,8 +413,7 @@ namespace UBB_SE_2024_Team_42.Repository
             connection.Close();
 
         }
-
-        public List<Post> getPostsOfUser(long userId)
+        public List<Post> getAnswersOfUser(long userId)
         {
             SqlConnection connection = new SqlConnection(sqlConnectionString);
             connection.Open();
@@ -423,29 +422,77 @@ namespace UBB_SE_2024_Team_42.Repository
             DataTable dataTable = new DataTable();
             dataAdapter.Fill(dataTable);
 
-            List<Post> postList = new List<Post>();
+            List<Post> answerList = new List<Post>();
+            for (int i = 0; i < dataTable.Rows.Count; i++)
+            {
+                string type = dataTable.Rows[i]["type"].ToString();
+                List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
+                if (type == Post.ANSWER_TYPE)
+
+                    answerList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
+                                          dataTable.Rows[i]["content"].ToString(), type, voteList,
+                                          Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));
+            }
+
+            connection.Close();
+
+            return answerList;
+        
+        }
+        public List<Post> getCommentsOfUser(long userId)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand("select * from dbo.getPostsByUserId(" + userId + ")", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            dataAdapter.Fill(dataTable);
+
+            List<Post> commentList = new List<Post>();
+            for (int i = 0; i < dataTable.Rows.Count; i++)
+            {
+                string type = dataTable.Rows[i]["type"].ToString();
+                List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
+                if (type == Post.COMMENT_TYPE)
+                {
+                    commentList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
+                                          dataTable.Rows[i]["content"].ToString(), type, voteList,
+                                          Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));
+                }
+            }
+            connection.Close();
+
+            return commentList;
+        }
+
+        public List<Question> getQuestionsOfUser(long userId)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionString);
+            connection.Open();
+            SqlCommand command = new SqlCommand("select * from dbo.getPostsByUserId(" + userId + ")", connection);
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+            DataTable dataTable = new DataTable();
+            dataAdapter.Fill(dataTable);
+
+            List<Question> questionList = new List<Question>();
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
                 string type = dataTable.Rows[i]["type"].ToString();
                 List<Vote> voteList = getVotesOfPost(Convert.ToInt64(dataTable.Rows[i]["id"]));
                 if (type == Post.QUESTION_TYPE)
                 {
-                    List<Tag> tagList = getTagsOfQuestion(Convert.ToInt64( dataTable.Rows[i]["id"]));
+                    List<Tag> tagList = getTagsOfQuestion(Convert.ToInt64(dataTable.Rows[i]["id"]));
                     Category category = getCategory(Convert.ToInt64(dataTable.Rows[i]["categoryId"]));
 
-                    postList.Add(new Question(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
+                    questionList.Add(new Question(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
                                               dataTable.Rows[i]["title"].ToString(), category, dataTable.Rows[i]["content"].ToString(),
                                               Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]),
                                               type, voteList, tagList));
                 }
-                postList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
-                                      dataTable.Rows[i]["content"].ToString(), type, voteList,
-                                      Convert.ToDateTime(dataTable.Rows[i]["datePosted"]),Convert.ToDateTime( dataTable.Rows[i]["dateOfLastEdit"])));
             }
+
             connection.Close();
-
-            return postList;
+            return questionList;
         }
-
     }
 }
