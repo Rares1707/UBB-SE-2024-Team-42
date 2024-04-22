@@ -220,9 +220,14 @@ namespace UBB_SE_2024_Team_42.Service
             return this.repository.getQuestionsOfUser(userId);
         }
 
-        public List<Post> getCommnentsOfUser(long userId)
+        public List<Post> getCommentsOfUser(long userId)
         {
             return this.repository.getCommentsOfUser(userId);
+        }
+
+        public List<Badge> getBadgesOfUser(long userId)
+        {
+            return this.repository.getBadgesOfUser(userId);
         }
     }
 }

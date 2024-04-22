@@ -14,7 +14,9 @@ namespace UBB_SE_2024_Team_42.Repository
     public class Repository
     { 
         //Data Source = CAMFRIGLACLUJ; Initial Catalog = Team42DB;Integrated Security = True
-        private string sqlConnectionString = (@"Data Source=CAMFRIGLACLUJ;Initial Catalog=Team42DB;Integrated Security=True;");
+        private string sqlConnectionString = (@"Data Source=WINDOWS\SQLEXPRESS;Initial Catalog=Team42;Integrated Security=True;");
+
+        //private static readonly ImageConverter imageConverter = new ImageConverter;
 
         // no other fields required
         // when you need something, just create public functions which insert/update/retrieve data directly
@@ -39,7 +41,6 @@ namespace UBB_SE_2024_Team_42.Repository
             {
                 notificationList.Add(new Notification(
                     Convert.ToInt64(dataTable.Rows[i]["id"]),
-                 
                     Convert.ToInt64(dataTable.Rows[i]["postId"]),
                     Convert.ToInt64(dataTable.Rows[i]["badgeId"])
                     ));
@@ -85,7 +86,8 @@ namespace UBB_SE_2024_Team_42.Repository
             {
                 Image badgeImage;
                 byte[] imageBytes = (byte[])dataTable.Rows[i]["image"];
-                using (MemoryStream stream = new MemoryStream(imageBytes))
+        
+                using (Stream stream = new MemoryStream(imageBytes))
                 {
                     badgeImage = Image.FromStream(stream);
                 }
@@ -457,7 +459,7 @@ namespace UBB_SE_2024_Team_42.Repository
                 {
                     commentList.Add(new Post(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
                                           dataTable.Rows[i]["content"].ToString(), type, voteList,
-                                          Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));
+                                          Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), dataTable.Rows[i]["dateOfLastEdit"] == DBNull.Value ? Convert.ToDateTime(dataTable.Rows[i]["datePosted"]) : Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"])));
                 }
             }
             connection.Close();
@@ -484,13 +486,16 @@ namespace UBB_SE_2024_Team_42.Repository
                     List<Tag> tagList = getTagsOfQuestion(Convert.ToInt64(dataTable.Rows[i]["id"]));
                     Category category = getCategory(Convert.ToInt64(dataTable.Rows[i]["categoryId"]));
 
-                    questionList.Add(new Question(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userID"]),
-                                              dataTable.Rows[i]["title"].ToString(), category, dataTable.Rows[i]["content"].ToString(),
-                                              Convert.ToDateTime(dataTable.Rows[i]["datePosted"]), Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]),
-                                              type, voteList, tagList));
+                    questionList.Add(new Question(Convert.ToInt64(dataTable.Rows[i]["id"]), Convert.ToInt64(dataTable.Rows[i]["userId"]),
+                                dataTable.Rows[i]["title"].ToString(), category,
+                                dataTable.Rows[i]["content"].ToString(),
+                                Convert.ToDateTime(dataTable.Rows[i]["datePosted"]),
+                                dataTable.Rows[i]["dateOfLastEdit"] == DBNull.Value ? Convert.ToDateTime(dataTable.Rows[i]["datePosted"]) : Convert.ToDateTime(dataTable.Rows[i]["dateOfLastEdit"]), dataTable.Rows[i]["type"].ToString(),
+                                voteList, tagList));
+                    
                 }
             }
-
+            //questionList.Add(new Question(8, 3, "question", new Category(8, "category"), "content", new DateTime(), new DateTime(), "type", new List<Vote>(), new List<Tag>() ));
             connection.Close();
             return questionList;
         }

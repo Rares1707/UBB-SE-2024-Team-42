@@ -19,8 +19,8 @@
             <Label x:Name="UserScore" Content="@Herobrine's Score:" Height="25" Margin="0,35,100,0" VerticalAlignment="Top" FontFamily="Arial Black" HorizontalAlignment="Right" Width="152" FontWeight="Bold"/>
             <TextBlock x:Name="Score" TextAlignment="Center" Margin="0,60,100,35" TextWrapping="Wrap" Text="9999" HorizontalAlignment="Right" Width="152" FontWeight="Bold" FontFamily="Arial Black"/>
         </Grid>
-        <Grid x:Name="Badges" Height="75" Margin="0,125,0,0" VerticalAlignment="Top">
-            <ListView x:Name="BadgeList" ItemsSource="{Binding Badge}" SelectionChanged="BadgeList_SelectionChanged">
+        <Grid x:Name="BadgesGrid" Height="75" Margin="0,125,0,0" VerticalAlignment="Top">
+            <ListView x:Name="BadgeList" ItemsSource="{Binding Badges}" SelectionChanged="BadgeList_SelectionChanged">
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <StackPanel Orientation="Horizontal"></StackPanel>
@@ -40,15 +40,14 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>
-        <Grid x:Name="QuestionsSection" Height="230" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="400">
-            <Label x:Name="Questions" Content="Questions" Height="50" VerticalAlignment="Top" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF8000FF" BorderThickness="0,0,1,0"/>
-            <ListView x:Name="QuestionList" ItemsSource="{Binding Posts}" SelectionChanged="QuestionList_SelectionChanged" Margin="0,50,0,0">
+        <Grid x:Name="QuestionsSection" HorizontalAlignment="Left" Width="400" Margin="0,205,0,0">
+            <Label x:Name="QuestionsLabel" Content="Questions" Height="50" VerticalAlignment="Top" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF8000FF" BorderThickness="0,0,1,0"/>
+            <ListView x:Name="QuestionList" ItemsSource="{Binding Questions}" SelectionChanged="QuestionList_SelectionChanged" Margin="0,50,0,0">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Border>
                             <StackPanel>
                                 <DockPanel>
-                                    <Image/>
                                     <!-- Set Source property -->
                                     <StackPanel>
                                         <TextBlock Text="{Binding Title}" FontWeight="Bold"/>
@@ -73,15 +72,14 @@
                 </ListView.ItemTemplate>
             </ListView>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="230" Margin="400,205,0,0" VerticalAlignment="Top" Width="400">
-            <Label x:Name="Answers" Content="Answers" Height="50" VerticalAlignment="Top" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF8000FF" BorderThickness="1,0,0,0"/>
+        <Grid HorizontalAlignment="Right" Height="230" Margin="0,205,0,0" VerticalAlignment="Top" Width="400">
+            <Label x:Name="AnswersLabel" Content="Answers" Height="50" VerticalAlignment="Top" FontFamily="Arial Black" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FF8000FF" BorderThickness="1,0,0,0"/>
             <ListView x:Name="AnswerList" ItemsSource="{Binding Answers}" SelectionChanged="AnswerList_SelectionChanged" Margin="0,50,0,0">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Border>
                             <StackPanel>
                                 <DockPanel>
-                                    <Image/>
                                     <!-- Set Source property -->
                                     <StackPanel>
                                         <TextBlock Text="{Binding Title}" FontWeight="Bold"/>
@@ -91,15 +89,6 @@
                                     <!-- Set Source property -->
                                 </DockPanel>
                                 <TextBlock Text="{Binding Content}"/>
-                                <DockPanel>
-                                    <DockPanel>
-                                        <!--Tags-->
-                                    </DockPanel>
-                                    <DockPanel>
-                                        <!--Num Answers-->
-                                        <!--Score-->
-                                    </DockPanel>
-                                </DockPanel>
                             </StackPanel>
                         </Border>
                     </DataTemplate>
