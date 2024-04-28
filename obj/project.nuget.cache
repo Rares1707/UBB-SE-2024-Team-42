@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "neiDqzMyMWL/c+ysHcBhelgFlbkL1tDLgEkCDBNxxIH6yUPFzBw+jBEKsdjWPoKMvLK7Qh+RMJT6BHubEj6Hsg==",
+  "dgSpecHash": "gDlozDlFJklop2N1ED586jwDLydApp0V+dmBpZpk1NwGT6zD36cIVD24hNTpeH5OBpIR7CGt5lV1KEIt2OCsnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rares\\Desktop\\UBB-SE-2024-TEAM-42\\UBB-SE-2024-Team-42\\UBB-SE-2024-Team-42.csproj",
+  "projectFilePath": "C:\\Users\\Rares\\Desktop\\Neww\\UBB-SE-2024-Team-42\\UBB-SE-2024-Team-42.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rares\\.nuget\\packages\\extended.wpf.toolkit\\4.6.0\\extended.wpf.toolkit.4.6.0.nupkg.sha512",
     "C:\\Users\\Rares\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

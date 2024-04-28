@@ -57,9 +57,9 @@ namespace UBB_SE_2024_Team_42.Service
             List<Question> questions = repository.getAllQuestions();
             List<Question> filteredQuestions = new List<Question>();
 
-            foreach(Question question in questions)
+            foreach (Question question in questions)
             {
-                foreach(Post post in repository.getRepliesOfPost(question.PostID))
+                foreach (Post post in repository.getRepliesOfPost(question.PostID))
                 {
                     if (post.PostType == Post.ANSWER_TYPE)
                     {
@@ -80,7 +80,7 @@ namespace UBB_SE_2024_Team_42.Service
             foreach (Question question in questions)
             {
                 bool addedQuestionToList = false;
-                
+
                 foreach (Tag tag in question.Tags)
                 {
                     if (textToBeSearchedBy.Contains(tag.TagName))
@@ -229,22 +229,25 @@ namespace UBB_SE_2024_Team_42.Service
         {
             return this.repository.getTagsOfQuestion(questionId);
         }
-    }
-}
+
+
 
         public void addQuestion(string title, string content, Category category)
-        { 
+        {
             Question question = new Question(0, 1, title, category, content, new DateTime(), new DateTime(), "question", null, null);
             repository.addQuestion(question);
-               
-        }
 
         }
-    }
+
+
+
 
         public List<Badge> getBadgesOfUser(long userId)
         {
             return this.repository.getBadgesOfUser(userId);
+
+
         }
     }
+    
 }

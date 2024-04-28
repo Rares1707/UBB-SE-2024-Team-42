@@ -14,7 +14,7 @@ namespace UBB_SE_2024_Team_42.Repository
     public class Repository
     { 
         //Data Source = CAMFRIGLACLUJ; Initial Catalog = Team42DB;Integrated Security = True
-        private string sqlConnectionString = (@"Data Source=WINDOWS\SQLEXPRESS;Initial Catalog=Team42;Integrated Security=True;");
+        private string sqlConnectionString = (@"Data Source = CAMFRIGLACLUJ; Initial Catalog = Team42DB;Integrated Security = True");
 
         //private static readonly ImageConverter imageConverter = new ImageConverter;
 
